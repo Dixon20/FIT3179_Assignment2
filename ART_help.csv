@@ -1,55 +1,379 @@
 "","Country","Code","Year","Group","value"
-"1","World","OWID_WRL",1990,"Death",16.7003
-"2","World","OWID_WRL",1990,"ART",311838
-"3","World","OWID_WRL",1991,"Death",22.5144
-"4","World","OWID_WRL",1991,"ART",393259
-"5","World","OWID_WRL",1992,"Death",30.0413
-"6","World","OWID_WRL",1992,"ART",486084
-"7","World","OWID_WRL",1993,"Death",34.0616
-"8","World","OWID_WRL",1993,"ART",590504
-"9","World","OWID_WRL",1994,"Death",80.409
-"10","World","OWID_WRL",1994,"ART",707015
-"11","World","OWID_WRL",1995,"Death",534.193
-"12","World","OWID_WRL",1995,"ART",835680
-"13","World","OWID_WRL",1996,"Death",13839.6
-"14","World","OWID_WRL",1996,"ART",959178
-"15","World","OWID_WRL",1997,"Death",38060.9
-"16","World","OWID_WRL",1997,"ART",1070000
-"17","World","OWID_WRL",1998,"Death",49872.9
-"18","World","OWID_WRL",1998,"ART",1210000
-"19","World","OWID_WRL",1999,"Death",53480.4
-"20","World","OWID_WRL",1999,"ART",1350000
-"21","World","OWID_WRL",2000,"Death",51958.8
-"22","World","OWID_WRL",2000,"ART",1500000
-"23","World","OWID_WRL",2001,"Death",60041.3
-"24","World","OWID_WRL",2001,"ART",1630000
-"25","World","OWID_WRL",2002,"Death",68829.5
-"26","World","OWID_WRL",2002,"ART",1750000
-"27","World","OWID_WRL",2003,"Death",81134.2
-"28","World","OWID_WRL",2003,"ART",1860000
-"29","World","OWID_WRL",2004,"Death",117361
-"30","World","OWID_WRL",2004,"ART",1930000
-"31","World","OWID_WRL",2005,"Death",201803
-"32","World","OWID_WRL",2005,"ART",1940000
-"33","World","OWID_WRL",2006,"Death",313766
-"34","World","OWID_WRL",2006,"ART",1900000
-"35","World","OWID_WRL",2007,"Death",452850
-"36","World","OWID_WRL",2007,"ART",1820000
-"37","World","OWID_WRL",2008,"Death",609375
-"38","World","OWID_WRL",2008,"ART",1700000
-"39","World","OWID_WRL",2009,"Death",700109
-"40","World","OWID_WRL",2009,"ART",1580000
-"41","World","OWID_WRL",2010,"Death",764260
-"42","World","OWID_WRL",2010,"ART",1480000
-"43","World","OWID_WRL",2011,"Death",861711
-"44","World","OWID_WRL",2011,"ART",1390000
-"45","World","OWID_WRL",2012,"Death",1e+06
-"46","World","OWID_WRL",2012,"ART",1300000
-"47","World","OWID_WRL",2013,"Death",1100000
-"48","World","OWID_WRL",2013,"ART",1210000
-"49","World","OWID_WRL",2014,"Death",1160000
-"50","World","OWID_WRL",2014,"ART",1130000
-"51","World","OWID_WRL",2015,"Death",1190000
-"52","World","OWID_WRL",2015,"ART",1060000
-"53","World","OWID_WRL",2016,"Death",1210000
-"54","World","OWID_WRL",2016,"ART",1010000
+"1","Asia and the Pacific","",1990,"Death",0
+"2","Asia and the Pacific","",1990,"ART",6320.64
+"3","Asia and the Pacific","",1991,"Death",0
+"4","Asia and the Pacific","",1991,"ART",10355.7
+"5","Asia and the Pacific","",1992,"Death",0
+"6","Asia and the Pacific","",1992,"ART",16604.8
+"7","Asia and the Pacific","",1993,"Death",0
+"8","Asia and the Pacific","",1993,"ART",25689.6
+"9","Asia and the Pacific","",1994,"Death",0
+"10","Asia and the Pacific","",1994,"ART",38120.5
+"11","Asia and the Pacific","",1995,"Death",26.0466
+"12","Asia and the Pacific","",1995,"ART",54830.2
+"13","Asia and the Pacific","",1996,"Death",475.122
+"14","Asia and the Pacific","",1996,"ART",75026.3
+"15","Asia and the Pacific","",1997,"Death",885.544
+"16","Asia and the Pacific","",1997,"ART",98590.1
+"17","Asia and the Pacific","",1998,"Death",1029.85
+"18","Asia and the Pacific","",1998,"ART",125110
+"19","Asia and the Pacific","",1999,"Death",1199.96
+"20","Asia and the Pacific","",1999,"ART",153279
+"21","Asia and the Pacific","",2000,"Death",1341.62
+"22","Asia and the Pacific","",2000,"ART",182083
+"23","Asia and the Pacific","",2001,"Death",1759.73
+"24","Asia and the Pacific","",2001,"ART",210117
+"25","Asia and the Pacific","",2002,"Death",3270.89
+"26","Asia and the Pacific","",2002,"ART",235971
+"27","Asia and the Pacific","",2003,"Death",7091.14
+"28","Asia and the Pacific","",2003,"ART",257377
+"29","Asia and the Pacific","",2004,"Death",12156
+"30","Asia and the Pacific","",2004,"ART",275089
+"31","Asia and the Pacific","",2005,"Death",23738.5
+"32","Asia and the Pacific","",2005,"ART",283268
+"33","Asia and the Pacific","",2006,"Death",43307.2
+"34","Asia and the Pacific","",2006,"ART",280369
+"35","Asia and the Pacific","",2007,"Death",60463.1
+"36","Asia and the Pacific","",2007,"ART",276636
+"37","Asia and the Pacific","",2008,"Death",82448.4
+"38","Asia and the Pacific","",2008,"ART",264780
+"39","Asia and the Pacific","",2009,"Death",100769
+"40","Asia and the Pacific","",2009,"ART",253435
+"41","Asia and the Pacific","",2010,"Death",113431
+"42","Asia and the Pacific","",2010,"ART",244997
+"43","Asia and the Pacific","",2011,"Death",125865
+"44","Asia and the Pacific","",2011,"ART",234475
+"45","Asia and the Pacific","",2012,"Death",136194
+"46","Asia and the Pacific","",2012,"ART",223903
+"47","Asia and the Pacific","",2013,"Death",142762
+"48","Asia and the Pacific","",2013,"ART",213376
+"49","Asia and the Pacific","",2014,"Death",153432
+"50","Asia and the Pacific","",2014,"ART",197238
+"51","Asia and the Pacific","",2015,"Death",161897
+"52","Asia and the Pacific","",2015,"ART",182311
+"53","Asia and the Pacific","",2016,"Death",165868
+"54","Asia and the Pacific","",2016,"ART",171409
+"55","East and Southern Africa","",1990,"Death",0
+"56","East and Southern Africa","",1990,"ART",171545
+"57","East and Southern Africa","",1991,"Death",0
+"58","East and Southern Africa","",1991,"ART",216019
+"59","East and Southern Africa","",1992,"Death",0
+"60","East and Southern Africa","",1992,"ART",266860
+"61","East and Southern Africa","",1993,"Death",0
+"62","East and Southern Africa","",1993,"ART",324448
+"63","East and Southern Africa","",1994,"Death",0
+"64","East and Southern Africa","",1994,"ART",388679
+"65","East and Southern Africa","",1995,"Death",0
+"66","East and Southern Africa","",1995,"ART",459401
+"67","East and Southern Africa","",1996,"Death",0
+"68","East and Southern Africa","",1996,"ART",535072
+"69","East and Southern Africa","",1997,"Death",1.45312
+"70","East and Southern Africa","",1997,"ART",614116
+"71","East and Southern Africa","",1998,"Death",16.7534
+"72","East and Southern Africa","",1998,"ART",694778
+"73","East and Southern Africa","",1999,"Death",58.8462
+"74","East and Southern Africa","",1999,"ART",775164
+"75","East and Southern Africa","",2000,"Death",41.5315
+"76","East and Southern Africa","",2000,"ART",853433
+"77","East and Southern Africa","",2001,"Death",303.465
+"78","East and Southern Africa","",2001,"ART",927898
+"79","East and Southern Africa","",2002,"Death",2404.16
+"80","East and Southern Africa","",2002,"ART",993605
+"81","East and Southern Africa","",2003,"Death",7334.93
+"82","East and Southern Africa","",2003,"ART",1050000
+"83","East and Southern Africa","",2004,"Death",28376.9
+"84","East and Southern Africa","",2004,"ART",1090000
+"85","East and Southern Africa","",2005,"Death",82230.6
+"86","East and Southern Africa","",2005,"ART",1090000
+"87","East and Southern Africa","",2006,"Death",154249
+"88","East and Southern Africa","",2006,"ART",1050000
+"89","East and Southern Africa","",2007,"Death",251556
+"90","East and Southern Africa","",2007,"ART",985379
+"91","East and Southern Africa","",2008,"Death",362942
+"92","East and Southern Africa","",2008,"ART",886006
+"93","East and Southern Africa","",2009,"Death",410737
+"94","East and Southern Africa","",2009,"ART",797835
+"95","East and Southern Africa","",2010,"Death",444768
+"96","East and Southern Africa","",2010,"ART",718315
+"97","East and Southern Africa","",2011,"Death",522244
+"98","East and Southern Africa","",2011,"ART",649967
+"99","East and Southern Africa","",2012,"Death",645852
+"100","East and Southern Africa","",2012,"ART",583697
+"101","East and Southern Africa","",2013,"Death",726980
+"102","East and Southern Africa","",2013,"ART",524136
+"103","East and Southern Africa","",2014,"Death",756245
+"104","East and Southern Africa","",2014,"ART",477114
+"105","East and Southern Africa","",2015,"Death",768113
+"106","East and Southern Africa","",2015,"ART",440107
+"107","East and Southern Africa","",2016,"Death",781631
+"108","East and Southern Africa","",2016,"ART",415599
+"109","Eastern Europe and Central Asia","",1990,"Death",0
+"110","Eastern Europe and Central Asia","",1990,"ART",2122.83
+"111","Eastern Europe and Central Asia","",1991,"Death",0
+"112","Eastern Europe and Central Asia","",1991,"ART",2502.23
+"113","Eastern Europe and Central Asia","",1992,"Death",0
+"114","Eastern Europe and Central Asia","",1992,"ART",2940.29
+"115","Eastern Europe and Central Asia","",1993,"Death",0
+"116","Eastern Europe and Central Asia","",1993,"ART",3454.67
+"117","Eastern Europe and Central Asia","",1994,"Death",0
+"118","Eastern Europe and Central Asia","",1994,"ART",4085.85
+"119","Eastern Europe and Central Asia","",1995,"Death",0
+"120","Eastern Europe and Central Asia","",1995,"ART",4874.09
+"121","Eastern Europe and Central Asia","",1996,"Death",265.078
+"122","Eastern Europe and Central Asia","",1996,"ART",5600.9
+"123","Eastern Europe and Central Asia","",1997,"Death",636.445
+"124","Eastern Europe and Central Asia","",1997,"ART",6468.97
+"125","Eastern Europe and Central Asia","",1998,"Death",1042.96
+"126","Eastern Europe and Central Asia","",1998,"ART",7593.67
+"127","Eastern Europe and Central Asia","",1999,"Death",1533.07
+"128","Eastern Europe and Central Asia","",1999,"ART",8936.4
+"129","Eastern Europe and Central Asia","",2000,"Death",1835.16
+"130","Eastern Europe and Central Asia","",2000,"ART",10771
+"131","Eastern Europe and Central Asia","",2001,"Death",1604.52
+"132","Eastern Europe and Central Asia","",2001,"ART",13415.5
+"133","Eastern Europe and Central Asia","",2002,"Death",1037.31
+"134","Eastern Europe and Central Asia","",2002,"ART",16985.8
+"135","Eastern Europe and Central Asia","",2003,"Death",624.004
+"136","Eastern Europe and Central Asia","",2003,"ART",20523.2
+"137","Eastern Europe and Central Asia","",2004,"Death",395.434
+"138","Eastern Europe and Central Asia","",2004,"ART",23667.2
+"139","Eastern Europe and Central Asia","",2005,"Death",622.373
+"140","Eastern Europe and Central Asia","",2005,"ART",26560.3
+"141","Eastern Europe and Central Asia","",2006,"Death",1307.91
+"142","Eastern Europe and Central Asia","",2006,"ART",29256.4
+"143","Eastern Europe and Central Asia","",2007,"Death",4200.16
+"144","Eastern Europe and Central Asia","",2007,"ART",29885
+"145","Eastern Europe and Central Asia","",2008,"Death",8795.5
+"146","Eastern Europe and Central Asia","",2008,"ART",28792
+"147","Eastern Europe and Central Asia","",2009,"Death",11810.7
+"148","Eastern Europe and Central Asia","",2009,"ART",29450.9
+"149","Eastern Europe and Central Asia","",2010,"Death",13421.3
+"150","Eastern Europe and Central Asia","",2010,"ART",31778.7
+"151","Eastern Europe and Central Asia","",2011,"Death",14633.1
+"152","Eastern Europe and Central Asia","",2011,"ART",34735
+"153","Eastern Europe and Central Asia","",2012,"Death",17522.8
+"154","Eastern Europe and Central Asia","",2012,"ART",36219.1
+"155","Eastern Europe and Central Asia","",2013,"Death",22260.6
+"156","Eastern Europe and Central Asia","",2013,"ART",36273.1
+"157","Eastern Europe and Central Asia","",2014,"Death",27201
+"158","Eastern Europe and Central Asia","",2014,"ART",36236.6
+"159","Eastern Europe and Central Asia","",2015,"Death",31754.5
+"160","Eastern Europe and Central Asia","",2015,"ART",37077.1
+"161","Eastern Europe and Central Asia","",2016,"Death",34534.2
+"162","Eastern Europe and Central Asia","",2016,"ART",40340.1
+"163","Middle East and North Africa","",1990,"Death",0.43763
+"164","Middle East and North Africa","",1990,"ART",522.45
+"165","Middle East and North Africa","",1991,"Death",0.63382
+"166","Middle East and North Africa","",1991,"ART",645.188
+"167","Middle East and North Africa","",1992,"Death",0.89119
+"168","Middle East and North Africa","",1992,"ART",796.062
+"169","Middle East and North Africa","",1993,"Death",1.02508
+"170","Middle East and North Africa","",1993,"ART",980.796
+"171","Middle East and North Africa","",1994,"Death",2.45928
+"172","Middle East and North Africa","",1994,"ART",1202.87
+"173","Middle East and North Africa","",1995,"Death",17.8012
+"174","Middle East and North Africa","",1995,"ART",1459.53
+"175","Middle East and North Africa","",1996,"Death",44.015
+"176","Middle East and North Africa","",1996,"ART",1758.56
+"177","Middle East and North Africa","",1997,"Death",50.3203
+"178","Middle East and North Africa","",1997,"ART",2136.59
+"179","Middle East and North Africa","",1998,"Death",57.0912
+"180","Middle East and North Africa","",1998,"ART",2578.8
+"181","Middle East and North Africa","",1999,"Death",64.9138
+"182","Middle East and North Africa","",1999,"ART",3082.36
+"183","Middle East and North Africa","",2000,"Death",80.8418
+"184","Middle East and North Africa","",2000,"ART",3644.09
+"185","Middle East and North Africa","",2001,"Death",130.268
+"186","Middle East and North Africa","",2001,"ART",4241.04
+"187","Middle East and North Africa","",2002,"Death",157.415
+"188","Middle East and North Africa","",2002,"ART",4921.4
+"189","Middle East and North Africa","",2003,"Death",229.198
+"190","Middle East and North Africa","",2003,"ART",5610.62
+"191","Middle East and North Africa","",2004,"Death",399.751
+"192","Middle East and North Africa","",2004,"ART",6243.82
+"193","Middle East and North Africa","",2005,"Death",553.488
+"194","Middle East and North Africa","",2005,"ART",6917.58
+"195","Middle East and North Africa","",2006,"Death",643.682
+"196","Middle East and North Africa","",2006,"ART",7670.07
+"197","Middle East and North Africa","",2007,"Death",900.797
+"198","Middle East and North Africa","",2007,"ART",8250.46
+"199","Middle East and North Africa","",2008,"Death",1130.67
+"200","Middle East and North Africa","",2008,"ART",8838.69
+"201","Middle East and North Africa","",2009,"Death",1621.57
+"202","Middle East and North Africa","",2009,"ART",9136.1
+"203","Middle East and North Africa","",2010,"Death",1955.82
+"204","Middle East and North Africa","",2010,"ART",9556.79
+"205","Middle East and North Africa","",2011,"Death",2100.57
+"206","Middle East and North Africa","",2011,"ART",10134.3
+"207","Middle East and North Africa","",2012,"Death",2261
+"208","Middle East and North Africa","",2012,"ART",10614.7
+"209","Middle East and North Africa","",2013,"Death",2574.81
+"210","Middle East and North Africa","",2013,"ART",10904.1
+"211","Middle East and North Africa","",2014,"Death",2904.71
+"212","Middle East and North Africa","",2014,"ART",11117.3
+"213","Middle East and North Africa","",2015,"Death",3216.58
+"214","Middle East and North Africa","",2015,"ART",11296.7
+"215","Middle East and North Africa","",2016,"Death",3558.37
+"216","Middle East and North Africa","",2016,"ART",11360.1
+"217","West and Central Africa","",1990,"Death",-0.00746
+"218","West and Central Africa","",1990,"ART",65557.1
+"219","West and Central Africa","",1991,"Death",-0.07687
+"220","West and Central Africa","",1991,"ART",82999.6
+"221","West and Central Africa","",1992,"Death",-0.2103
+"222","West and Central Africa","",1992,"ART",103308
+"223","West and Central Africa","",1993,"Death",-0.45191
+"224","West and Central Africa","",1993,"ART",126578
+"225","West and Central Africa","",1994,"Death",-0.76297
+"226","West and Central Africa","",1994,"ART",152733
+"227","West and Central Africa","",1995,"Death",2.09203
+"228","West and Central Africa","",1995,"ART",181425
+"229","West and Central Africa","",1996,"Death",-0.80282
+"230","West and Central Africa","",1996,"ART",212349
+"231","West and Central Africa","",1997,"Death",-3.58487
+"232","West and Central Africa","",1997,"ART",244945
+"233","West and Central Africa","",1998,"Death",-5.22229
+"234","West and Central Africa","",1998,"ART",278494
+"235","West and Central Africa","",1999,"Death",8.25992
+"236","West and Central Africa","",1999,"ART",312197
+"237","West and Central Africa","",2000,"Death",-0.94455
+"238","West and Central Africa","",2000,"ART",345102
+"239","West and Central Africa","",2001,"Death",331.239
+"240","West and Central Africa","",2001,"ART",375084
+"241","West and Central Africa","",2002,"Death",1354.49
+"242","West and Central Africa","",2002,"ART",402129
+"243","West and Central Africa","",2003,"Death",2536.09
+"244","West and Central Africa","",2003,"ART",426301
+"245","West and Central Africa","",2004,"Death",9406.68
+"246","West and Central Africa","",2004,"ART",440929
+"247","West and Central Africa","",2005,"Death",26364.7
+"248","West and Central Africa","",2005,"ART",441270
+"249","West and Central Africa","",2006,"Death",42060.3
+"250","West and Central Africa","",2006,"ART",438481
+"251","West and Central Africa","",2007,"Death",57453.5
+"252","West and Central Africa","",2007,"ART",431172
+"253","West and Central Africa","",2008,"Death",71682.6
+"254","West and Central Africa","",2008,"ART",421522
+"255","West and Central Africa","",2009,"Death",90746.3
+"256","West and Central Africa","",2009,"ART",403883
+"257","West and Central Africa","",2010,"Death",103112
+"258","West and Central Africa","",2010,"ART",390263
+"259","West and Central Africa","",2011,"Death",107787
+"260","West and Central Africa","",2011,"ART",381488
+"261","West and Central Africa","",2012,"Death",108984
+"262","West and Central Africa","",2012,"ART",372206
+"263","West and Central Africa","",2013,"Death",115010
+"264","West and Central Africa","",2013,"ART",353941
+"265","West and Central Africa","",2014,"Death",118837
+"266","West and Central Africa","",2014,"ART",337841
+"267","West and Central Africa","",2015,"Death",122157
+"268","West and Central Africa","",2015,"ART",322405
+"269","West and Central Africa","",2016,"Death",126805
+"270","West and Central Africa","",2016,"ART",306835
+"271","Western & Central Europe and North America","",1990,"Death",-2.21747
+"272","Western & Central Europe and North America","",1990,"ART",42267.7
+"273","Western & Central Europe and North America","",1991,"Death",1.82599
+"274","Western & Central Europe and North America","",1991,"ART",51722
+"275","Western & Central Europe and North America","",1992,"Death",8.01587
+"276","Western & Central Europe and North America","",1992,"ART",60624.5
+"277","Western & Central Europe and North America","",1993,"Death",11.058
+"278","Western & Central Europe and North America","",1993,"ART",68179.3
+"279","Western & Central Europe and North America","",1994,"Death",7.99194
+"280","Western & Central Europe and North America","",1994,"ART",74689.5
+"281","Western & Central Europe and North America","",1995,"Death",21.1942
+"282","Western & Central Europe and North America","",1995,"ART",80186.6
+"283","Western & Central Europe and North America","",1996,"Death",11728.1
+"284","Western & Central Europe and North America","",1996,"ART",70412.1
+"285","Western & Central Europe and North America","",1997,"Death",34353.3
+"286","Western & Central Europe and North America","",1997,"ART",50219.1
+"287","Western & Central Europe and North America","",1998,"Death",45069.5
+"288","Western & Central Europe and North America","",1998,"ART",40995.2
+"289","Western & Central Europe and North America","",1999,"Death",47651.7
+"290","Western & Central Europe and North America","",1999,"ART",39282.7
+"291","Western & Central Europe and North America","",2000,"Death",45046.3
+"292","Western & Central Europe and North America","",2000,"ART",42637.5
+"293","Western & Central Europe and North America","",2001,"Death",50955.3
+"294","Western & Central Europe and North America","",2001,"ART",37030.7
+"295","Western & Central Europe and North America","",2002,"Death",53797.1
+"296","Western & Central Europe and North America","",2002,"ART",34355.6
+"297","Western & Central Europe and North America","",2003,"Death",54032.6
+"298","Western & Central Europe and North America","",2003,"ART",34000.9
+"299","Western & Central Europe and North America","",2004,"Death",54521.5
+"300","Western & Central Europe and North America","",2004,"ART",33107.2
+"301","Western & Central Europe and North America","",2005,"Death",54283.4
+"302","Western & Central Europe and North America","",2005,"ART",32748.1
+"303","Western & Central Europe and North America","",2006,"Death",54257.7
+"304","Western & Central Europe and North America","",2006,"ART",32103.1
+"305","Western & Central Europe and North America","",2007,"Death",54165.2
+"306","Western & Central Europe and North America","",2007,"ART",31357.6
+"307","Western & Central Europe and North America","",2008,"Death",53964.1
+"308","Western & Central Europe and North America","",2008,"ART",30652.8
+"309","Western & Central Europe and North America","",2009,"Death",54494.4
+"310","Western & Central Europe and North America","",2009,"ART",29218.5
+"311","Western & Central Europe and North America","",2010,"Death",56584.1
+"312","Western & Central Europe and North America","",2010,"ART",26188.5
+"313","Western & Central Europe and North America","",2011,"Death",57041.1
+"314","Western & Central Europe and North America","",2011,"ART",24797.4
+"315","Western & Central Europe and North America","",2012,"Death",57264.1
+"316","Western & Central Europe and North America","",2012,"ART",23618.4
+"317","Western & Central Europe and North America","",2013,"Death",57656.2
+"318","Western & Central Europe and North America","",2013,"ART",22301.8
+"319","Western & Central Europe and North America","",2014,"Death",58509.1
+"320","Western & Central Europe and North America","",2014,"ART",20571
+"321","Western & Central Europe and North America","",2015,"Death",59455
+"322","Western & Central Europe and North America","",2015,"ART",18791.3
+"323","Western & Central Europe and North America","",2016,"Death",59664.7
+"324","Western & Central Europe and North America","",2016,"ART",17774.3
+"325","World","OWID_WRL",1990,"Death",16.7003
+"326","World","OWID_WRL",1990,"ART",311838
+"327","World","OWID_WRL",1991,"Death",22.5144
+"328","World","OWID_WRL",1991,"ART",393259
+"329","World","OWID_WRL",1992,"Death",30.0413
+"330","World","OWID_WRL",1992,"ART",486084
+"331","World","OWID_WRL",1993,"Death",34.0616
+"332","World","OWID_WRL",1993,"ART",590504
+"333","World","OWID_WRL",1994,"Death",80.409
+"334","World","OWID_WRL",1994,"ART",707015
+"335","World","OWID_WRL",1995,"Death",534.193
+"336","World","OWID_WRL",1995,"ART",835680
+"337","World","OWID_WRL",1996,"Death",13839.6
+"338","World","OWID_WRL",1996,"ART",959178
+"339","World","OWID_WRL",1997,"Death",38060.9
+"340","World","OWID_WRL",1997,"ART",1070000
+"341","World","OWID_WRL",1998,"Death",49872.9
+"342","World","OWID_WRL",1998,"ART",1210000
+"343","World","OWID_WRL",1999,"Death",53480.4
+"344","World","OWID_WRL",1999,"ART",1350000
+"345","World","OWID_WRL",2000,"Death",51958.8
+"346","World","OWID_WRL",2000,"ART",1500000
+"347","World","OWID_WRL",2001,"Death",60041.3
+"348","World","OWID_WRL",2001,"ART",1630000
+"349","World","OWID_WRL",2002,"Death",68829.5
+"350","World","OWID_WRL",2002,"ART",1750000
+"351","World","OWID_WRL",2003,"Death",81134.2
+"352","World","OWID_WRL",2003,"ART",1860000
+"353","World","OWID_WRL",2004,"Death",117361
+"354","World","OWID_WRL",2004,"ART",1930000
+"355","World","OWID_WRL",2005,"Death",201803
+"356","World","OWID_WRL",2005,"ART",1940000
+"357","World","OWID_WRL",2006,"Death",313766
+"358","World","OWID_WRL",2006,"ART",1900000
+"359","World","OWID_WRL",2007,"Death",452850
+"360","World","OWID_WRL",2007,"ART",1820000
+"361","World","OWID_WRL",2008,"Death",609375
+"362","World","OWID_WRL",2008,"ART",1700000
+"363","World","OWID_WRL",2009,"Death",700109
+"364","World","OWID_WRL",2009,"ART",1580000
+"365","World","OWID_WRL",2010,"Death",764260
+"366","World","OWID_WRL",2010,"ART",1480000
+"367","World","OWID_WRL",2011,"Death",861711
+"368","World","OWID_WRL",2011,"ART",1390000
+"369","World","OWID_WRL",2012,"Death",1e+06
+"370","World","OWID_WRL",2012,"ART",1300000
+"371","World","OWID_WRL",2013,"Death",1100000
+"372","World","OWID_WRL",2013,"ART",1210000
+"373","World","OWID_WRL",2014,"Death",1160000
+"374","World","OWID_WRL",2014,"ART",1130000
+"375","World","OWID_WRL",2015,"Death",1190000
+"376","World","OWID_WRL",2015,"ART",1060000
+"377","World","OWID_WRL",2016,"Death",1210000
+"378","World","OWID_WRL",2016,"ART",1010000
