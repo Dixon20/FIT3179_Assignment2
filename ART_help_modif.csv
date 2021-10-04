@@ -1,0 +1,379 @@
+X,Country,Code,Year,Group,value,Group.y,sum_val
+1,Asia and the Pacific,,1990,Death,0,ART,4590760.84
+2,Asia and the Pacific,,1990,ART,6320.64,ART,4590760.84
+3,Asia and the Pacific,,1991,Death,0,ART,4590760.84
+4,Asia and the Pacific,,1991,ART,10355.7,ART,4590760.84
+5,Asia and the Pacific,,1992,Death,0,ART,4590760.84
+6,Asia and the Pacific,,1992,ART,16604.8,ART,4590760.84
+7,Asia and the Pacific,,1993,Death,0,ART,4590760.84
+8,Asia and the Pacific,,1993,ART,25689.6,ART,4590760.84
+9,Asia and the Pacific,,1994,Death,0,ART,4590760.84
+10,Asia and the Pacific,,1994,ART,38120.5,ART,4590760.84
+11,Asia and the Pacific,,1995,Death,26.0466,ART,4590760.84
+12,Asia and the Pacific,,1995,ART,54830.2,ART,4590760.84
+13,Asia and the Pacific,,1996,Death,475.122,ART,4590760.84
+14,Asia and the Pacific,,1996,ART,75026.3,ART,4590760.84
+15,Asia and the Pacific,,1997,Death,885.544,ART,4590760.84
+16,Asia and the Pacific,,1997,ART,98590.1,ART,4590760.84
+17,Asia and the Pacific,,1998,Death,1029.85,ART,4590760.84
+18,Asia and the Pacific,,1998,ART,125110,ART,4590760.84
+19,Asia and the Pacific,,1999,Death,1199.96,ART,4590760.84
+20,Asia and the Pacific,,1999,ART,153279,ART,4590760.84
+21,Asia and the Pacific,,2000,Death,1341.62,ART,4590760.84
+22,Asia and the Pacific,,2000,ART,182083,ART,4590760.84
+23,Asia and the Pacific,,2001,Death,1759.73,ART,4590760.84
+24,Asia and the Pacific,,2001,ART,210117,ART,4590760.84
+25,Asia and the Pacific,,2002,Death,3270.89,ART,4590760.84
+26,Asia and the Pacific,,2002,ART,235971,ART,4590760.84
+27,Asia and the Pacific,,2003,Death,7091.14,ART,4590760.84
+28,Asia and the Pacific,,2003,ART,257377,ART,4590760.84
+29,Asia and the Pacific,,2004,Death,12156,ART,4590760.84
+30,Asia and the Pacific,,2004,ART,275089,ART,4590760.84
+31,Asia and the Pacific,,2005,Death,23738.5,ART,4590760.84
+32,Asia and the Pacific,,2005,ART,283268,ART,4590760.84
+33,Asia and the Pacific,,2006,Death,43307.2,ART,4590760.84
+34,Asia and the Pacific,,2006,ART,280369,ART,4590760.84
+35,Asia and the Pacific,,2007,Death,60463.1,ART,4590760.84
+36,Asia and the Pacific,,2007,ART,276636,ART,4590760.84
+37,Asia and the Pacific,,2008,Death,82448.4,ART,4590760.84
+38,Asia and the Pacific,,2008,ART,264780,ART,4590760.84
+39,Asia and the Pacific,,2009,Death,100769,ART,4590760.84
+40,Asia and the Pacific,,2009,ART,253435,ART,4590760.84
+41,Asia and the Pacific,,2010,Death,113431,ART,4590760.84
+42,Asia and the Pacific,,2010,ART,244997,ART,4590760.84
+43,Asia and the Pacific,,2011,Death,125865,ART,4590760.84
+44,Asia and the Pacific,,2011,ART,234475,ART,4590760.84
+45,Asia and the Pacific,,2012,Death,136194,ART,4590760.84
+46,Asia and the Pacific,,2012,ART,223903,ART,4590760.84
+47,Asia and the Pacific,,2013,Death,142762,ART,4590760.84
+48,Asia and the Pacific,,2013,ART,213376,ART,4590760.84
+49,Asia and the Pacific,,2014,Death,153432,ART,4590760.84
+50,Asia and the Pacific,,2014,ART,197238,ART,4590760.84
+51,Asia and the Pacific,,2015,Death,161897,ART,4590760.84
+52,Asia and the Pacific,,2015,ART,182311,ART,4590760.84
+53,Asia and the Pacific,,2016,Death,165868,ART,4590760.84
+54,Asia and the Pacific,,2016,ART,171409,ART,4590760.84
+55,East and Southern Africa,,1990,Death,0,ART,17979173
+56,East and Southern Africa,,1990,ART,171545,ART,17979173
+57,East and Southern Africa,,1991,Death,0,ART,17979173
+58,East and Southern Africa,,1991,ART,216019,ART,17979173
+59,East and Southern Africa,,1992,Death,0,ART,17979173
+60,East and Southern Africa,,1992,ART,266860,ART,17979173
+61,East and Southern Africa,,1993,Death,0,ART,17979173
+62,East and Southern Africa,,1993,ART,324448,ART,17979173
+63,East and Southern Africa,,1994,Death,0,ART,17979173
+64,East and Southern Africa,,1994,ART,388679,ART,17979173
+65,East and Southern Africa,,1995,Death,0,ART,17979173
+66,East and Southern Africa,,1995,ART,459401,ART,17979173
+67,East and Southern Africa,,1996,Death,0,ART,17979173
+68,East and Southern Africa,,1996,ART,535072,ART,17979173
+69,East and Southern Africa,,1997,Death,1.45312,ART,17979173
+70,East and Southern Africa,,1997,ART,614116,ART,17979173
+71,East and Southern Africa,,1998,Death,16.7534,ART,17979173
+72,East and Southern Africa,,1998,ART,694778,ART,17979173
+73,East and Southern Africa,,1999,Death,58.8462,ART,17979173
+74,East and Southern Africa,,1999,ART,775164,ART,17979173
+75,East and Southern Africa,,2000,Death,41.5315,ART,17979173
+76,East and Southern Africa,,2000,ART,853433,ART,17979173
+77,East and Southern Africa,,2001,Death,303.465,ART,17979173
+78,East and Southern Africa,,2001,ART,927898,ART,17979173
+79,East and Southern Africa,,2002,Death,2404.16,ART,17979173
+80,East and Southern Africa,,2002,ART,993605,ART,17979173
+81,East and Southern Africa,,2003,Death,7334.93,ART,17979173
+82,East and Southern Africa,,2003,ART,1050000,ART,17979173
+83,East and Southern Africa,,2004,Death,28376.9,ART,17979173
+84,East and Southern Africa,,2004,ART,1090000,ART,17979173
+85,East and Southern Africa,,2005,Death,82230.6,ART,17979173
+86,East and Southern Africa,,2005,ART,1090000,ART,17979173
+87,East and Southern Africa,,2006,Death,154249,ART,17979173
+88,East and Southern Africa,,2006,ART,1050000,ART,17979173
+89,East and Southern Africa,,2007,Death,251556,ART,17979173
+90,East and Southern Africa,,2007,ART,985379,ART,17979173
+91,East and Southern Africa,,2008,Death,362942,ART,17979173
+92,East and Southern Africa,,2008,ART,886006,ART,17979173
+93,East and Southern Africa,,2009,Death,410737,ART,17979173
+94,East and Southern Africa,,2009,ART,797835,ART,17979173
+95,East and Southern Africa,,2010,Death,444768,ART,17979173
+96,East and Southern Africa,,2010,ART,718315,ART,17979173
+97,East and Southern Africa,,2011,Death,522244,ART,17979173
+98,East and Southern Africa,,2011,ART,649967,ART,17979173
+99,East and Southern Africa,,2012,Death,645852,ART,17979173
+100,East and Southern Africa,,2012,ART,583697,ART,17979173
+101,East and Southern Africa,,2013,Death,726980,ART,17979173
+102,East and Southern Africa,,2013,ART,524136,ART,17979173
+103,East and Southern Africa,,2014,Death,756245,ART,17979173
+104,East and Southern Africa,,2014,ART,477114,ART,17979173
+105,East and Southern Africa,,2015,Death,768113,ART,17979173
+106,East and Southern Africa,,2015,ART,440107,ART,17979173
+107,East and Southern Africa,,2016,Death,781631,ART,17979173
+108,East and Southern Africa,,2016,ART,415599,ART,17979173
+109,Eastern Europe and Central Asia,,1990,Death,0,ART,530546.9
+110,Eastern Europe and Central Asia,,1990,ART,2122.83,ART,530546.9
+111,Eastern Europe and Central Asia,,1991,Death,0,ART,530546.9
+112,Eastern Europe and Central Asia,,1991,ART,2502.23,ART,530546.9
+113,Eastern Europe and Central Asia,,1992,Death,0,ART,530546.9
+114,Eastern Europe and Central Asia,,1992,ART,2940.29,ART,530546.9
+115,Eastern Europe and Central Asia,,1993,Death,0,ART,530546.9
+116,Eastern Europe and Central Asia,,1993,ART,3454.67,ART,530546.9
+117,Eastern Europe and Central Asia,,1994,Death,0,ART,530546.9
+118,Eastern Europe and Central Asia,,1994,ART,4085.85,ART,530546.9
+119,Eastern Europe and Central Asia,,1995,Death,0,ART,530546.9
+120,Eastern Europe and Central Asia,,1995,ART,4874.09,ART,530546.9
+121,Eastern Europe and Central Asia,,1996,Death,265.078,ART,530546.9
+122,Eastern Europe and Central Asia,,1996,ART,5600.9,ART,530546.9
+123,Eastern Europe and Central Asia,,1997,Death,636.445,ART,530546.9
+124,Eastern Europe and Central Asia,,1997,ART,6468.97,ART,530546.9
+125,Eastern Europe and Central Asia,,1998,Death,1042.96,ART,530546.9
+126,Eastern Europe and Central Asia,,1998,ART,7593.67,ART,530546.9
+127,Eastern Europe and Central Asia,,1999,Death,1533.07,ART,530546.9
+128,Eastern Europe and Central Asia,,1999,ART,8936.4,ART,530546.9
+129,Eastern Europe and Central Asia,,2000,Death,1835.16,ART,530546.9
+130,Eastern Europe and Central Asia,,2000,ART,10771,ART,530546.9
+131,Eastern Europe and Central Asia,,2001,Death,1604.52,ART,530546.9
+132,Eastern Europe and Central Asia,,2001,ART,13415.5,ART,530546.9
+133,Eastern Europe and Central Asia,,2002,Death,1037.31,ART,530546.9
+134,Eastern Europe and Central Asia,,2002,ART,16985.8,ART,530546.9
+135,Eastern Europe and Central Asia,,2003,Death,624.004,ART,530546.9
+136,Eastern Europe and Central Asia,,2003,ART,20523.2,ART,530546.9
+137,Eastern Europe and Central Asia,,2004,Death,395.434,ART,530546.9
+138,Eastern Europe and Central Asia,,2004,ART,23667.2,ART,530546.9
+139,Eastern Europe and Central Asia,,2005,Death,622.373,ART,530546.9
+140,Eastern Europe and Central Asia,,2005,ART,26560.3,ART,530546.9
+141,Eastern Europe and Central Asia,,2006,Death,1307.91,ART,530546.9
+142,Eastern Europe and Central Asia,,2006,ART,29256.4,ART,530546.9
+143,Eastern Europe and Central Asia,,2007,Death,4200.16,ART,530546.9
+144,Eastern Europe and Central Asia,,2007,ART,29885,ART,530546.9
+145,Eastern Europe and Central Asia,,2008,Death,8795.5,ART,530546.9
+146,Eastern Europe and Central Asia,,2008,ART,28792,ART,530546.9
+147,Eastern Europe and Central Asia,,2009,Death,11810.7,ART,530546.9
+148,Eastern Europe and Central Asia,,2009,ART,29450.9,ART,530546.9
+149,Eastern Europe and Central Asia,,2010,Death,13421.3,ART,530546.9
+150,Eastern Europe and Central Asia,,2010,ART,31778.7,ART,530546.9
+151,Eastern Europe and Central Asia,,2011,Death,14633.1,ART,530546.9
+152,Eastern Europe and Central Asia,,2011,ART,34735,ART,530546.9
+153,Eastern Europe and Central Asia,,2012,Death,17522.8,ART,530546.9
+154,Eastern Europe and Central Asia,,2012,ART,36219.1,ART,530546.9
+155,Eastern Europe and Central Asia,,2013,Death,22260.6,ART,530546.9
+156,Eastern Europe and Central Asia,,2013,ART,36273.1,ART,530546.9
+157,Eastern Europe and Central Asia,,2014,Death,27201,ART,530546.9
+158,Eastern Europe and Central Asia,,2014,ART,36236.6,ART,530546.9
+159,Eastern Europe and Central Asia,,2015,Death,31754.5,ART,530546.9
+160,Eastern Europe and Central Asia,,2015,ART,37077.1,ART,530546.9
+161,Eastern Europe and Central Asia,,2016,Death,34534.2,ART,530546.9
+162,Eastern Europe and Central Asia,,2016,ART,40340.1,ART,530546.9
+163,Middle East and North Africa,,1990,Death,0.43763,ART,155621.066
+164,Middle East and North Africa,,1990,ART,522.45,ART,155621.066
+165,Middle East and North Africa,,1991,Death,0.63382,ART,155621.066
+166,Middle East and North Africa,,1991,ART,645.188,ART,155621.066
+167,Middle East and North Africa,,1992,Death,0.89119,ART,155621.066
+168,Middle East and North Africa,,1992,ART,796.062,ART,155621.066
+169,Middle East and North Africa,,1993,Death,1.02508,ART,155621.066
+170,Middle East and North Africa,,1993,ART,980.796,ART,155621.066
+171,Middle East and North Africa,,1994,Death,2.45928,ART,155621.066
+172,Middle East and North Africa,,1994,ART,1202.87,ART,155621.066
+173,Middle East and North Africa,,1995,Death,17.8012,ART,155621.066
+174,Middle East and North Africa,,1995,ART,1459.53,ART,155621.066
+175,Middle East and North Africa,,1996,Death,44.015,ART,155621.066
+176,Middle East and North Africa,,1996,ART,1758.56,ART,155621.066
+177,Middle East and North Africa,,1997,Death,50.3203,ART,155621.066
+178,Middle East and North Africa,,1997,ART,2136.59,ART,155621.066
+179,Middle East and North Africa,,1998,Death,57.0912,ART,155621.066
+180,Middle East and North Africa,,1998,ART,2578.8,ART,155621.066
+181,Middle East and North Africa,,1999,Death,64.9138,ART,155621.066
+182,Middle East and North Africa,,1999,ART,3082.36,ART,155621.066
+183,Middle East and North Africa,,2000,Death,80.8418,ART,155621.066
+184,Middle East and North Africa,,2000,ART,3644.09,ART,155621.066
+185,Middle East and North Africa,,2001,Death,130.268,ART,155621.066
+186,Middle East and North Africa,,2001,ART,4241.04,ART,155621.066
+187,Middle East and North Africa,,2002,Death,157.415,ART,155621.066
+188,Middle East and North Africa,,2002,ART,4921.4,ART,155621.066
+189,Middle East and North Africa,,2003,Death,229.198,ART,155621.066
+190,Middle East and North Africa,,2003,ART,5610.62,ART,155621.066
+191,Middle East and North Africa,,2004,Death,399.751,ART,155621.066
+192,Middle East and North Africa,,2004,ART,6243.82,ART,155621.066
+193,Middle East and North Africa,,2005,Death,553.488,ART,155621.066
+194,Middle East and North Africa,,2005,ART,6917.58,ART,155621.066
+195,Middle East and North Africa,,2006,Death,643.682,ART,155621.066
+196,Middle East and North Africa,,2006,ART,7670.07,ART,155621.066
+197,Middle East and North Africa,,2007,Death,900.797,ART,155621.066
+198,Middle East and North Africa,,2007,ART,8250.46,ART,155621.066
+199,Middle East and North Africa,,2008,Death,1130.67,ART,155621.066
+200,Middle East and North Africa,,2008,ART,8838.69,ART,155621.066
+201,Middle East and North Africa,,2009,Death,1621.57,ART,155621.066
+202,Middle East and North Africa,,2009,ART,9136.1,ART,155621.066
+203,Middle East and North Africa,,2010,Death,1955.82,ART,155621.066
+204,Middle East and North Africa,,2010,ART,9556.79,ART,155621.066
+205,Middle East and North Africa,,2011,Death,2100.57,ART,155621.066
+206,Middle East and North Africa,,2011,ART,10134.3,ART,155621.066
+207,Middle East and North Africa,,2012,Death,2261,ART,155621.066
+208,Middle East and North Africa,,2012,ART,10614.7,ART,155621.066
+209,Middle East and North Africa,,2013,Death,2574.81,ART,155621.066
+210,Middle East and North Africa,,2013,ART,10904.1,ART,155621.066
+211,Middle East and North Africa,,2014,Death,2904.71,ART,155621.066
+212,Middle East and North Africa,,2014,ART,11117.3,ART,155621.066
+213,Middle East and North Africa,,2015,Death,3216.58,ART,155621.066
+214,Middle East and North Africa,,2015,ART,11296.7,ART,155621.066
+215,Middle East and North Africa,,2016,Death,3558.37,ART,155621.066
+216,Middle East and North Africa,,2016,ART,11360.1,ART,155621.066
+217,West and Central Africa,,1990,Death,-0.00746,ART,8351437.7
+218,West and Central Africa,,1990,ART,65557.1,ART,8351437.7
+219,West and Central Africa,,1991,Death,-0.07687,ART,8351437.7
+220,West and Central Africa,,1991,ART,82999.6,ART,8351437.7
+221,West and Central Africa,,1992,Death,-0.2103,ART,8351437.7
+222,West and Central Africa,,1992,ART,103308,ART,8351437.7
+223,West and Central Africa,,1993,Death,-0.45191,ART,8351437.7
+224,West and Central Africa,,1993,ART,126578,ART,8351437.7
+225,West and Central Africa,,1994,Death,-0.76297,ART,8351437.7
+226,West and Central Africa,,1994,ART,152733,ART,8351437.7
+227,West and Central Africa,,1995,Death,2.09203,ART,8351437.7
+228,West and Central Africa,,1995,ART,181425,ART,8351437.7
+229,West and Central Africa,,1996,Death,-0.80282,ART,8351437.7
+230,West and Central Africa,,1996,ART,212349,ART,8351437.7
+231,West and Central Africa,,1997,Death,-3.58487,ART,8351437.7
+232,West and Central Africa,,1997,ART,244945,ART,8351437.7
+233,West and Central Africa,,1998,Death,-5.22229,ART,8351437.7
+234,West and Central Africa,,1998,ART,278494,ART,8351437.7
+235,West and Central Africa,,1999,Death,8.25992,ART,8351437.7
+236,West and Central Africa,,1999,ART,312197,ART,8351437.7
+237,West and Central Africa,,2000,Death,-0.94455,ART,8351437.7
+238,West and Central Africa,,2000,ART,345102,ART,8351437.7
+239,West and Central Africa,,2001,Death,331.239,ART,8351437.7
+240,West and Central Africa,,2001,ART,375084,ART,8351437.7
+241,West and Central Africa,,2002,Death,1354.49,ART,8351437.7
+242,West and Central Africa,,2002,ART,402129,ART,8351437.7
+243,West and Central Africa,,2003,Death,2536.09,ART,8351437.7
+244,West and Central Africa,,2003,ART,426301,ART,8351437.7
+245,West and Central Africa,,2004,Death,9406.68,ART,8351437.7
+246,West and Central Africa,,2004,ART,440929,ART,8351437.7
+247,West and Central Africa,,2005,Death,26364.7,ART,8351437.7
+248,West and Central Africa,,2005,ART,441270,ART,8351437.7
+249,West and Central Africa,,2006,Death,42060.3,ART,8351437.7
+250,West and Central Africa,,2006,ART,438481,ART,8351437.7
+251,West and Central Africa,,2007,Death,57453.5,ART,8351437.7
+252,West and Central Africa,,2007,ART,431172,ART,8351437.7
+253,West and Central Africa,,2008,Death,71682.6,ART,8351437.7
+254,West and Central Africa,,2008,ART,421522,ART,8351437.7
+255,West and Central Africa,,2009,Death,90746.3,ART,8351437.7
+256,West and Central Africa,,2009,ART,403883,ART,8351437.7
+257,West and Central Africa,,2010,Death,103112,ART,8351437.7
+258,West and Central Africa,,2010,ART,390263,ART,8351437.7
+259,West and Central Africa,,2011,Death,107787,ART,8351437.7
+260,West and Central Africa,,2011,ART,381488,ART,8351437.7
+261,West and Central Africa,,2012,Death,108984,ART,8351437.7
+262,West and Central Africa,,2012,ART,372206,ART,8351437.7
+263,West and Central Africa,,2013,Death,115010,ART,8351437.7
+264,West and Central Africa,,2013,ART,353941,ART,8351437.7
+265,West and Central Africa,,2014,Death,118837,ART,8351437.7
+266,West and Central Africa,,2014,ART,337841,ART,8351437.7
+267,West and Central Africa,,2015,Death,122157,ART,8351437.7
+268,West and Central Africa,,2015,ART,322405,ART,8351437.7
+269,West and Central Africa,,2016,Death,126805,ART,8351437.7
+270,West and Central Africa,,2016,ART,306835,ART,8351437.7
+271,Western & Central Europe and North America,,1990,Death,-2.21747,ART,1069833.4
+272,Western & Central Europe and North America,,1990,ART,42267.7,ART,1069833.4
+273,Western & Central Europe and North America,,1991,Death,1.82599,ART,1069833.4
+274,Western & Central Europe and North America,,1991,ART,51722,ART,1069833.4
+275,Western & Central Europe and North America,,1992,Death,8.01587,ART,1069833.4
+276,Western & Central Europe and North America,,1992,ART,60624.5,ART,1069833.4
+277,Western & Central Europe and North America,,1993,Death,11.058,ART,1069833.4
+278,Western & Central Europe and North America,,1993,ART,68179.3,ART,1069833.4
+279,Western & Central Europe and North America,,1994,Death,7.99194,ART,1069833.4
+280,Western & Central Europe and North America,,1994,ART,74689.5,ART,1069833.4
+281,Western & Central Europe and North America,,1995,Death,21.1942,ART,1069833.4
+282,Western & Central Europe and North America,,1995,ART,80186.6,ART,1069833.4
+283,Western & Central Europe and North America,,1996,Death,11728.1,ART,1069833.4
+284,Western & Central Europe and North America,,1996,ART,70412.1,ART,1069833.4
+285,Western & Central Europe and North America,,1997,Death,34353.3,ART,1069833.4
+286,Western & Central Europe and North America,,1997,ART,50219.1,ART,1069833.4
+287,Western & Central Europe and North America,,1998,Death,45069.5,ART,1069833.4
+288,Western & Central Europe and North America,,1998,ART,40995.2,ART,1069833.4
+289,Western & Central Europe and North America,,1999,Death,47651.7,ART,1069833.4
+290,Western & Central Europe and North America,,1999,ART,39282.7,ART,1069833.4
+291,Western & Central Europe and North America,,2000,Death,45046.3,ART,1069833.4
+292,Western & Central Europe and North America,,2000,ART,42637.5,ART,1069833.4
+293,Western & Central Europe and North America,,2001,Death,50955.3,ART,1069833.4
+294,Western & Central Europe and North America,,2001,ART,37030.7,ART,1069833.4
+295,Western & Central Europe and North America,,2002,Death,53797.1,ART,1069833.4
+296,Western & Central Europe and North America,,2002,ART,34355.6,ART,1069833.4
+297,Western & Central Europe and North America,,2003,Death,54032.6,ART,1069833.4
+298,Western & Central Europe and North America,,2003,ART,34000.9,ART,1069833.4
+299,Western & Central Europe and North America,,2004,Death,54521.5,ART,1069833.4
+300,Western & Central Europe and North America,,2004,ART,33107.2,ART,1069833.4
+301,Western & Central Europe and North America,,2005,Death,54283.4,ART,1069833.4
+302,Western & Central Europe and North America,,2005,ART,32748.1,ART,1069833.4
+303,Western & Central Europe and North America,,2006,Death,54257.7,ART,1069833.4
+304,Western & Central Europe and North America,,2006,ART,32103.1,ART,1069833.4
+305,Western & Central Europe and North America,,2007,Death,54165.2,ART,1069833.4
+306,Western & Central Europe and North America,,2007,ART,31357.6,ART,1069833.4
+307,Western & Central Europe and North America,,2008,Death,53964.1,ART,1069833.4
+308,Western & Central Europe and North America,,2008,ART,30652.8,ART,1069833.4
+309,Western & Central Europe and North America,,2009,Death,54494.4,ART,1069833.4
+310,Western & Central Europe and North America,,2009,ART,29218.5,ART,1069833.4
+311,Western & Central Europe and North America,,2010,Death,56584.1,ART,1069833.4
+312,Western & Central Europe and North America,,2010,ART,26188.5,ART,1069833.4
+313,Western & Central Europe and North America,,2011,Death,57041.1,ART,1069833.4
+314,Western & Central Europe and North America,,2011,ART,24797.4,ART,1069833.4
+315,Western & Central Europe and North America,,2012,Death,57264.1,ART,1069833.4
+316,Western & Central Europe and North America,,2012,ART,23618.4,ART,1069833.4
+317,Western & Central Europe and North America,,2013,Death,57656.2,ART,1069833.4
+318,Western & Central Europe and North America,,2013,ART,22301.8,ART,1069833.4
+319,Western & Central Europe and North America,,2014,Death,58509.1,ART,1069833.4
+320,Western & Central Europe and North America,,2014,ART,20571,ART,1069833.4
+321,Western & Central Europe and North America,,2015,Death,59455,ART,1069833.4
+322,Western & Central Europe and North America,,2015,ART,18791.3,ART,1069833.4
+323,Western & Central Europe and North America,,2016,Death,59664.7,ART,1069833.4
+324,Western & Central Europe and North America,,2016,ART,17774.3,ART,1069833.4
+325,World,OWID_WRL,1990,Death,16.7003,ART,34103558
+326,World,OWID_WRL,1990,ART,311838,ART,34103558
+327,World,OWID_WRL,1991,Death,22.5144,ART,34103558
+328,World,OWID_WRL,1991,ART,393259,ART,34103558
+329,World,OWID_WRL,1992,Death,30.0413,ART,34103558
+330,World,OWID_WRL,1992,ART,486084,ART,34103558
+331,World,OWID_WRL,1993,Death,34.0616,ART,34103558
+332,World,OWID_WRL,1993,ART,590504,ART,34103558
+333,World,OWID_WRL,1994,Death,80.409,ART,34103558
+334,World,OWID_WRL,1994,ART,707015,ART,34103558
+335,World,OWID_WRL,1995,Death,534.193,ART,34103558
+336,World,OWID_WRL,1995,ART,835680,ART,34103558
+337,World,OWID_WRL,1996,Death,13839.6,ART,34103558
+338,World,OWID_WRL,1996,ART,959178,ART,34103558
+339,World,OWID_WRL,1997,Death,38060.9,ART,34103558
+340,World,OWID_WRL,1997,ART,1070000,ART,34103558
+341,World,OWID_WRL,1998,Death,49872.9,ART,34103558
+342,World,OWID_WRL,1998,ART,1210000,ART,34103558
+343,World,OWID_WRL,1999,Death,53480.4,ART,34103558
+344,World,OWID_WRL,1999,ART,1350000,ART,34103558
+345,World,OWID_WRL,2000,Death,51958.8,ART,34103558
+346,World,OWID_WRL,2000,ART,1500000,ART,34103558
+347,World,OWID_WRL,2001,Death,60041.3,ART,34103558
+348,World,OWID_WRL,2001,ART,1630000,ART,34103558
+349,World,OWID_WRL,2002,Death,68829.5,ART,34103558
+350,World,OWID_WRL,2002,ART,1750000,ART,34103558
+351,World,OWID_WRL,2003,Death,81134.2,ART,34103558
+352,World,OWID_WRL,2003,ART,1860000,ART,34103558
+353,World,OWID_WRL,2004,Death,117361,ART,34103558
+354,World,OWID_WRL,2004,ART,1930000,ART,34103558
+355,World,OWID_WRL,2005,Death,201803,ART,34103558
+356,World,OWID_WRL,2005,ART,1940000,ART,34103558
+357,World,OWID_WRL,2006,Death,313766,ART,34103558
+358,World,OWID_WRL,2006,ART,1900000,ART,34103558
+359,World,OWID_WRL,2007,Death,452850,ART,34103558
+360,World,OWID_WRL,2007,ART,1820000,ART,34103558
+361,World,OWID_WRL,2008,Death,609375,ART,34103558
+362,World,OWID_WRL,2008,ART,1700000,ART,34103558
+363,World,OWID_WRL,2009,Death,700109,ART,34103558
+364,World,OWID_WRL,2009,ART,1580000,ART,34103558
+365,World,OWID_WRL,2010,Death,764260,ART,34103558
+366,World,OWID_WRL,2010,ART,1480000,ART,34103558
+367,World,OWID_WRL,2011,Death,861711,ART,34103558
+368,World,OWID_WRL,2011,ART,1390000,ART,34103558
+369,World,OWID_WRL,2012,Death,1000000,ART,34103558
+370,World,OWID_WRL,2012,ART,1300000,ART,34103558
+371,World,OWID_WRL,2013,Death,1100000,ART,34103558
+372,World,OWID_WRL,2013,ART,1210000,ART,34103558
+373,World,OWID_WRL,2014,Death,1160000,ART,34103558
+374,World,OWID_WRL,2014,ART,1130000,ART,34103558
+375,World,OWID_WRL,2015,Death,1190000,ART,34103558
+376,World,OWID_WRL,2015,ART,1060000,ART,34103558
+377,World,OWID_WRL,2016,Death,1210000,ART,34103558
+378,World,OWID_WRL,2016,ART,1010000,ART,34103558
