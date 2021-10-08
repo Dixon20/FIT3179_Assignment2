@@ -1,0 +1,433 @@
+location,Laws,value
+Afghanistan,Transmission,No
+Afghanistan,Parent,No
+Afghanistan,Spouse,No
+Albania,Transmission,Yes
+Albania,Parent,Yes
+Albania,Spouse,No
+Algeria,Transmission,No
+Algeria,Parent,Yes
+Algeria,Spouse,No
+Angola,Transmission,Yes
+Angola,Parent,Yes
+Angola,Spouse,No
+Antigua and Barbuda,Transmission,No
+Antigua and Barbuda,Parent,Yes
+Antigua and Barbuda,Spouse,No
+Argentina,Transmission,No
+Argentina,Parent,Yes
+Argentina,Spouse,No
+Armenia,Transmission,Yes
+Armenia,Parent,Yes
+Armenia,Spouse,No
+Azerbaijan,Transmission,Yes
+Azerbaijan,Parent,Yes
+Azerbaijan,Spouse,No
+Bahamas,Transmission,Yes
+Bahamas,Parent,Yes
+Bahamas,Spouse,Yes
+Bahrain,Transmission,Yes
+Bahrain,Parent,NA
+Bahrain,Spouse,NA
+Bangladesh,Transmission,No
+Bangladesh,Parent,Yes
+Bangladesh,Spouse,No
+Barbados,Transmission,No
+Barbados,Parent,Yes
+Barbados,Spouse,No
+Belarus,Transmission,Yes
+Belarus,Parent,Yes
+Belarus,Spouse,No
+Belize,Transmission,Yes
+Belize,Parent,Yes
+Belize,Spouse,NA
+Benin,Transmission,Yes
+Benin,Parent,Yes
+Benin,Spouse,No
+Bolivia,Transmission,Yes
+Bolivia,Parent,Yes
+Bolivia,Spouse,Yes
+Botswana,Transmission,Yes
+Botswana,Parent,Yes
+Botswana,Spouse,No
+Brazil,Transmission,No
+Brazil,Parent,Yes
+Brazil,Spouse,No
+Brunei Darussalam,Transmission,Yes
+Brunei Darussalam,Parent,No
+Brunei Darussalam,Spouse,No
+Burkina Faso,Transmission,Yes
+Burkina Faso,Parent,Yes
+Burkina Faso,Spouse,No
+Burundi,Transmission,Yes
+Burundi,Parent,Yes
+Burundi,Spouse,No
+Cabo Verde,Transmission,Yes
+Cabo Verde,Parent,NA
+Cabo Verde,Spouse,NA
+Cambodia,Transmission,Yes
+Cambodia,Parent,Yes
+Cambodia,Spouse,No
+Cameroon,Transmission,No
+Cameroon,Parent,Yes
+Cameroon,Spouse,No
+Canada,Transmission,No
+Canada,Parent,No
+Canada,Spouse,No
+Central African Rep.,Transmission,Yes
+Central African Rep.,Parent,Yes
+Central African Rep.,Spouse,No
+Chad,Transmission,Yes
+Chad,Parent,No
+Chad,Spouse,No
+Chile,Transmission,No
+Chile,Parent,Yes
+Chile,Spouse,No
+China,Transmission,Yes
+China,Parent,No
+China,Spouse,No
+Colombia,Transmission,Yes
+Colombia,Parent,Yes
+Colombia,Spouse,No
+Comoros,Transmission,No
+Comoros,Parent,No
+Comoros,Spouse,No
+Congo,Transmission,Yes
+Congo,Parent,Yes
+Congo,Spouse,No
+Costa Rica,Transmission,No
+Costa Rica,Parent,No
+Costa Rica,Spouse,No
+Côte d'Ivoire,Transmission,Yes
+Côte d'Ivoire,Parent,Yes
+Côte d'Ivoire,Spouse,No
+Cuba,Transmission,Yes
+Cuba,Parent,Yes
+Cuba,Spouse,Yes
+Czech Republic,Transmission,Yes
+Czech Republic,Parent,NA
+Czech Republic,Spouse,No
+Dem. Rep. Congo.,Transmission,Yes
+Dem. Rep. Congo.,Parent,Yes
+Dem. Rep. Congo.,Spouse,NA
+Djibouti,Transmission,Yes
+Djibouti,Parent,Yes
+Djibouti,Spouse,NA
+Dominica,Transmission,No
+Dominica,Parent,Yes
+Dominica,Spouse,No
+Dominican Republic,Transmission,Yes
+Dominican Republic,Parent,Yes
+Dominican Republic,Spouse,No
+Ecuador,Transmission,Yes
+Ecuador,Parent,No
+Ecuador,Spouse,No
+Egypt,Transmission,No
+Egypt,Parent,Yes
+Egypt,Spouse,No
+El Salvador,Transmission,Yes
+El Salvador,Parent,No
+El Salvador,Spouse,No
+Equatorial Guinea,Transmission,Yes
+Equatorial Guinea,Parent,Yes
+Equatorial Guinea,Spouse,No
+Eswatini,Transmission,No
+Eswatini,Parent,Yes
+Eswatini,Spouse,Yes
+Ethiopia,Transmission,Yes
+Ethiopia,Parent,Yes
+Ethiopia,Spouse,No
+Fiji,Transmission,No
+Fiji,Parent,No
+Fiji,Spouse,No
+Gabon,Transmission,No
+Gabon,Parent,Yes
+Gabon,Spouse,No
+Gambia,Transmission,Yes
+Gambia,Parent,Yes
+Gambia,Spouse,No
+Georgia,Transmission,Yes
+Georgia,Parent,Yes
+Georgia,Spouse,No
+Ghana,Transmission,Yes
+Ghana,Parent,Yes
+Ghana,Spouse,No
+Guatemala,Transmission,Yes
+Guatemala,Parent,Yes
+Guatemala,Spouse,No
+Guinea,Transmission,Yes
+Guinea,Parent,Yes
+Guinea,Spouse,No
+Guinea-Bissau,Transmission,Yes
+Guinea-Bissau,Parent,Yes
+Guinea-Bissau,Spouse,NA
+Guyana,Transmission,No
+Guyana,Parent,No
+Guyana,Spouse,No
+Haiti,Transmission,No
+Haiti,Parent,Yes
+Haiti,Spouse,No
+Honduras,Transmission,Yes
+Honduras,Parent,Yes
+Honduras,Spouse,No
+India,Transmission,No
+India,Parent,Yes
+India,Spouse,No
+Indonesia,Transmission,Yes
+Indonesia,Parent,Yes
+Indonesia,Spouse,Yes
+Iran,Transmission,No
+Iran,Parent,Yes
+Iran,Spouse,No
+Israel,Transmission,No
+Israel,Parent,NA
+Israel,Spouse,No
+Jamaica,Transmission,No
+Jamaica,Parent,Yes
+Jamaica,Spouse,No
+Kazakhstan,Transmission,Yes
+Kazakhstan,Parent,Yes
+Kazakhstan,Spouse,No
+Kenya,Transmission,Yes
+Kenya,Parent,Yes
+Kenya,Spouse,No
+Kiribati,Transmission,No
+Kiribati,Parent,No
+Kiribati,Spouse,No
+Kuwait,Transmission,Yes
+Kuwait,Parent,Yes
+Kuwait,Spouse,Yes
+Kyrgyzstan,Transmission,Yes
+Kyrgyzstan,Parent,Yes
+Kyrgyzstan,Spouse,No
+Laos,Transmission,Yes
+Laos,Parent,Yes
+Laos,Spouse,No
+Latvia,Transmission,Yes
+Latvia,Parent,NA
+Latvia,Spouse,NA
+Lesotho,Transmission,Yes
+Lesotho,Parent,Yes
+Lesotho,Spouse,No
+Liberia,Transmission,Yes
+Liberia,Parent,Yes
+Liberia,Spouse,No
+Madagascar,Transmission,Yes
+Madagascar,Parent,Yes
+Madagascar,Spouse,No
+Malawi,Transmission,No
+Malawi,Parent,Yes
+Malawi,Spouse,No
+Malaysia,Transmission,Yes
+Malaysia,Parent,Yes
+Malaysia,Spouse,No
+Mali,Transmission,Yes
+Mali,Parent,Yes
+Mali,Spouse,No
+Marshall Islands,Transmission,Yes
+Marshall Islands,Parent,No
+Marshall Islands,Spouse,No
+Mauritania,Transmission,Yes
+Mauritania,Parent,Yes
+Mauritania,Spouse,Yes
+Mauritius,Transmission,No
+Mauritius,Parent,Yes
+Mauritius,Spouse,No
+Mexico,Transmission,No
+Mexico,Parent,Yes
+Mexico,Spouse,No
+Micronesia,Transmission,No
+Micronesia,Parent,No
+Micronesia,Spouse,No
+Monaco,Transmission,No
+Monaco,Parent,Yes
+Monaco,Spouse,No
+Mongolia,Transmission,Yes
+Mongolia,Parent,Yes
+Mongolia,Spouse,No
+Montenegro,Transmission,Yes
+Montenegro,Parent,Yes
+Montenegro,Spouse,No
+Morocco,Transmission,No
+Morocco,Parent,Yes
+Morocco,Spouse,No
+Mozambique,Transmission,Yes
+Mozambique,Parent,Yes
+Mozambique,Spouse,No
+Myanmar,Transmission,No
+Myanmar,Parent,No
+Myanmar,Spouse,No
+Namibia,Transmission,No
+Namibia,Parent,Yes
+Namibia,Spouse,No
+Nauru,Transmission,No
+Nauru,Parent,No
+Nauru,Spouse,No
+Nepal,Transmission,No
+Nepal,Parent,Yes
+Nepal,Spouse,No
+Nicaragua,Transmission,No
+Nicaragua,Parent,No
+Nicaragua,Spouse,No
+Niger,Transmission,Yes
+Niger,Parent,Yes
+Niger,Spouse,No
+Nigeria,Transmission,No
+Nigeria,Parent,Yes
+Nigeria,Spouse,No
+Niue,Transmission,No
+Niue,Parent,Yes
+Niue,Spouse,No
+Oman,Transmission,No
+Oman,Parent,Yes
+Oman,Spouse,No
+Pakistan,Transmission,No
+Pakistan,Parent,Yes
+Pakistan,Spouse,Yes
+Palau,Transmission,No
+Palau,Parent,No
+Palau,Spouse,No
+Panama,Transmission,Yes
+Panama,Parent,Yes
+Panama,Spouse,No
+Papua New Guinea,Transmission,Yes
+Papua New Guinea,Parent,Yes
+Papua New Guinea,Spouse,No
+Paraguay,Transmission,No
+Paraguay,Parent,No
+Paraguay,Spouse,No
+Peru,Transmission,No
+Peru,Parent,Yes
+Peru,Spouse,No
+Philippines,Transmission,Yes
+Philippines,Parent,Yes
+Philippines,Spouse,No
+Poland,Transmission,Yes
+Poland,Parent,NA
+Poland,Spouse,NA
+Qatar,Transmission,Yes
+Qatar,Parent,NA
+Qatar,Spouse,NA
+North Korea,Transmission,Yes
+North Korea,Parent,No
+North Korea,Spouse,No
+Republic of Moldova,Transmission,Yes
+Republic of Moldova,Parent,Yes
+Republic of Moldova,Spouse,No
+Romania,Transmission,Yes
+Romania,Parent,NA
+Romania,Spouse,NA
+Russia,Transmission,Yes
+Russia,Parent,Yes
+Russia,Spouse,No
+Rwanda,Transmission,No
+Rwanda,Parent,Yes
+Rwanda,Spouse,No
+Saint Lucia,Transmission,Yes
+Saint Lucia,Parent,Yes
+Saint Lucia,Spouse,No
+Saint Vincent and the Grenadines,Transmission,No
+Saint Vincent and the Grenadines,Parent,NA
+Saint Vincent and the Grenadines,Spouse,No
+Samoa,Transmission,Yes
+Samoa,Parent,No
+Samoa,Spouse,No
+Sao Tome and Principe,Transmission,No
+Sao Tome and Principe,Parent,No
+Sao Tome and Principe,Spouse,No
+Saudi Arabia,Transmission,No
+Saudi Arabia,Parent,No
+Saudi Arabia,Spouse,No
+Senegal,Transmission,Yes
+Senegal,Parent,Yes
+Senegal,Spouse,No
+Serbia,Transmission,Yes
+Serbia,Parent,Yes
+Serbia,Spouse,No
+Seychelles,Transmission,Yes
+Seychelles,Parent,Yes
+Seychelles,Spouse,No
+Sierra Leone,Transmission,Yes
+Sierra Leone,Parent,Yes
+Sierra Leone,Spouse,No
+Singapore,Transmission,Yes
+Singapore,Parent,No
+Singapore,Spouse,No
+Slovakia,Transmission,Yes
+Slovakia,Parent,NA
+Slovakia,Spouse,NA
+Somalia,Transmission,Yes
+Somalia,Parent,NA
+Somalia,Spouse,NA
+South Africa,Transmission,No
+South Africa,Parent,Yes
+South Africa,Spouse,No
+S. Sudan,Transmission,Yes
+S. Sudan,Parent,Yes
+S. Sudan,Spouse,No
+Sri Lanka,Transmission,No
+Sri Lanka,Parent,No
+Sri Lanka,Spouse,No
+Sudan,Transmission,No
+Sudan,Parent,Yes
+Sudan,Spouse,No
+Suriname,Transmission,Yes
+Suriname,Parent,Yes
+Suriname,Spouse,No
+Syria,Transmission,Yes
+Syria,Parent,Yes
+Syria,Spouse,No
+Tajikistan,Transmission,Yes
+Tajikistan,Parent,Yes
+Tajikistan,Spouse,No
+Togo,Transmission,Yes
+Togo,Parent,Yes
+Togo,Spouse,No
+Tonga,Transmission,Yes
+Tonga,Parent,Yes
+Tonga,Spouse,No
+Tunisia,Transmission,No
+Tunisia,Parent,Yes
+Tunisia,Spouse,No
+Turkmenistan,Transmission,Yes
+Turkmenistan,Parent,NA
+Turkmenistan,Spouse,NA
+Tuvalu,Transmission,No
+Tuvalu,Parent,Yes
+Tuvalu,Spouse,No
+Uganda,Transmission,Yes
+Uganda,Parent,Yes
+Uganda,Spouse,No
+Ukraine,Transmission,Yes
+Ukraine,Parent,Yes
+Ukraine,Spouse,No
+United Arab Emirates,Transmission,No
+United Arab Emirates,Parent,NA
+United Arab Emirates,Spouse,No
+Tanzania,Transmission,Yes
+Tanzania,Parent,Yes
+Tanzania,Spouse,No
+United States,Transmission,Yes
+United States,Parent,NA
+United States,Spouse,NA
+Uruguay,Transmission,No
+Uruguay,Parent,No
+Uruguay,Spouse,No
+Uzbekistan,Transmission,Yes
+Uzbekistan,Parent,Yes
+Uzbekistan,Spouse,No
+Vanuatu,Transmission,No
+Vanuatu,Parent,No
+Vanuatu,Spouse,No
+Venezuela,Transmission,Yes
+Venezuela,Parent,Yes
+Venezuela,Spouse,No
+Vietnam,Transmission,Yes
+Vietnam,Parent,Yes
+Vietnam,Spouse,No
+Zambia,Transmission,No
+Zambia,Parent,Yes
+Zambia,Spouse,No
+Zimbabwe,Transmission,Yes
+Zimbabwe,Parent,Yes
+Zimbabwe,Spouse,No
