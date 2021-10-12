@@ -1,0 +1,92 @@
+"","Year","Area","Values","Forecast"
+"1",2018,"Asia and the Pacific",5796,FALSE
+"2",2018,"East and Southern Africa",10314,FALSE
+"3",2018,"Eastern Europe and Central Asia",1190,FALSE
+"4",2018,"Global",25721,FALSE
+"5",2018,"Latin America",3219,FALSE
+"6",2018,"Middle East and North Africa",585,FALSE
+"7",2018,"West and Central Africa",4128,FALSE
+"8",2019,"Asia and the Pacific",5976,FALSE
+"9",2019,"East and Southern Africa",10110,FALSE
+"10",2019,"Eastern Europe and Central Asia",1409,FALSE
+"11",2019,"Global",26037,FALSE
+"12",2019,"Latin America",3180,FALSE
+"13",2019,"Middle East and North Africa",669,FALSE
+"14",2019,"West and Central Africa",4148,FALSE
+"15",2020,"Asia and the Pacific",5980,FALSE
+"16",2020,"East and Southern Africa",10045,FALSE
+"17",2020,"Eastern Europe and Central Asia",1649,FALSE
+"18",2020,"Global",26172,FALSE
+"19",2020,"Latin America",3154,FALSE
+"20",2020,"Middle East and North Africa",759,FALSE
+"21",2020,"West and Central Africa",3980,FALSE
+"22",2021,"Asia and the Pacific",6294.29,TRUE
+"23",2021,"East and Southern Africa",7247.89,TRUE
+"24",2021,"Eastern Europe and Central Asia",2981.66,TRUE
+"25",2021,"Global",22632,TRUE
+"26",2021,"Latin America",2977.12,TRUE
+"27",2021,"Middle East and North Africa",690.39,TRUE
+"28",2021,"West and Central Africa",2153.2,TRUE
+"29",2022,"Asia and the Pacific",6992.03,TRUE
+"30",2022,"East and Southern Africa",7564.23,TRUE
+"31",2022,"Eastern Europe and Central Asia",3161.16,TRUE
+"32",2022,"Global",24309,TRUE
+"33",2022,"Latin America",3189.82,TRUE
+"34",2022,"Middle East and North Africa",780.12,TRUE
+"35",2022,"West and Central Africa",2311.21,TRUE
+"36",2023,"Asia and the Pacific",7707.45,TRUE
+"37",2023,"East and Southern Africa",7860.48,TRUE
+"38",2023,"Eastern Europe and Central Asia",3330.67,TRUE
+"39",2023,"Global",25977,TRUE
+"40",2023,"Latin America",3405.77,TRUE
+"41",2023,"Middle East and North Africa",875.68,TRUE
+"42",2023,"West and Central Africa",2463.4,TRUE
+"43",2024,"Asia and the Pacific",8458.25,TRUE
+"44",2024,"East and Southern Africa",8135.98,TRUE
+"45",2024,"Eastern Europe and Central Asia",3489,TRUE
+"46",2024,"Global",27647,TRUE
+"47",2024,"Latin America",3624.24,TRUE
+"48",2024,"Middle East and North Africa",977.67,TRUE
+"49",2024,"West and Central Africa",2605.92,TRUE
+"50",2025,"Asia and the Pacific",9237.76,TRUE
+"51",2025,"East and Southern Africa",8397.55,TRUE
+"52",2025,"Eastern Europe and Central Asia",3639.43,TRUE
+"53",2025,"Global",29329,TRUE
+"54",2025,"Latin America",3843.56,TRUE
+"55",2025,"Middle East and North Africa",1087.57,TRUE
+"56",2025,"West and Central Africa",2743.64,TRUE
+"57",2026,"Asia and the Pacific",8678.96,TRUE
+"58",2026,"East and Southern Africa",8107.78,TRUE
+"59",2026,"Eastern Europe and Central Asia",3380.6,TRUE
+"60",2026,"Global",27972,TRUE
+"61",2026,"Latin America",3703.14,TRUE
+"62",2026,"Middle East and North Africa",1070.11,TRUE
+"63",2026,"West and Central Africa",2660.74,TRUE
+"64",2027,"Asia and the Pacific",8642.24,TRUE
+"65",2027,"East and Southern Africa",8116.79,TRUE
+"66",2027,"Eastern Europe and Central Asia",3373.53,TRUE
+"67",2027,"Global",28005,TRUE
+"68",2027,"Latin America",3718.06,TRUE
+"69",2027,"Middle East and North Africa",1094.33,TRUE
+"70",2027,"West and Central Africa",2689.45,TRUE
+"71",2028,"Asia and the Pacific",8738.22,TRUE
+"72",2028,"East and Southern Africa",8120.41,TRUE
+"73",2028,"Eastern Europe and Central Asia",3363.66,TRUE
+"74",2028,"Global",28170,TRUE
+"75",2028,"Latin America",3733.02,TRUE
+"76",2028,"Middle East and North Africa",1117.24,TRUE
+"77",2028,"West and Central Africa",2725.85,TRUE
+"78",2029,"Asia and the Pacific",8821.63,TRUE
+"79",2029,"East and Southern Africa",8122.29,TRUE
+"80",2029,"Eastern Europe and Central Asia",3354.98,TRUE
+"81",2029,"Global",28325,TRUE
+"82",2029,"Latin America",3762.79,TRUE
+"83",2029,"Middle East and North Africa",1133.86,TRUE
+"84",2029,"West and Central Africa",2756.85,TRUE
+"85",2030,"Asia and the Pacific",8706.66,TRUE
+"86",2030,"East and Southern Africa",8114.66,TRUE
+"87",2030,"Eastern Europe and Central Asia",3327.68,TRUE
+"88",2030,"Global",28209,TRUE
+"89",2030,"Latin America",3761.55,TRUE
+"90",2030,"Middle East and North Africa",1149.02,TRUE
+"91",2030,"West and Central Africa",2777.67,TRUE
