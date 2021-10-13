@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiple Visualisations | An Example</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="style.css" media="all">
+
+
+</head>
+<body>
+
+ <div class="page">
+
+   <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1>HIV/AIDS</h1>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+        <h1>The spread of HIV around the world</h1>
+        </div>
+    </div>    
+
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+          <div id="vis1" class="vis-wrapper"></div>
+        </div>
+    </div>
+
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div class="description description-left">
+          <h1>Vulnerable group towards HIV</h1>
+        </div>
+      </div>
+
+      <div class = "pure-g">
+        <div class="pure-u-1-2">
+            <div id="vis2" class = "vis-wrapper"></div>
+        </div>
+    </div>
+
+    <div class = "pure-g">
+        <div class="pure-u-1-2">
+            <div id="vis3" class = "vis-wrapper"></div>
+        </div>
+    </div>
+      
+    
+    </div>
+    <!-- end pure grid group -->
+
+    <div class= "pure-g">
+        <div class = "pure-u-1-1">
+            <h1>Treatment and prevention for HIV</h1>
+        </div>
+    </div>
+
+    <div class = "pure-g">
+      <div class = "pure-u-1-2">
+        <div id = "vis10" class = "vis-wrapper" </div>
+      </div>
+    </div>
+
+    <div class = "pure-g">
+        <div class = "pure-u-2-3">
+            <div id = "vis6" class = "vis-wrapper"></div>
+        </div>
+        <div class = "pure-u-1-3">
+            <div class="description description-right">
+                <p>ART is a mixture of antiviral drugs that are used to treat people with HIV, 
+                  and it was first introduced in 1980s. Few decades ago, surviving more than 10 years with HIV was considered a miracle. 
+                  Now, thanks to ART, HIV is no longer a death sentence and people with HIV can live to old age like people without HIV. ART works by surpressing amount of HIV virus in the body (Viral load) until it is Undetectable. Individuals with Undetectable viral load can not infect other people through sex, and also towards their unborn child if they are pregnant mother. That is why beside HIV treatment, it is also effective tool in reducing mother-child-transmission rate. Good news is that most of the area in the world already has adequate ART coverage except Middle East</p>
+            </div>
+        </div>
+    </div>
+
+    <div class = "pure-g">
+        <div class = "pure-u-2-3">
+            <div id = "vis5" class = "vis-wrapper"></div>
+        </div>
+        <div class = "pure-u-1-3">
+            <div id = "vis7" class = "vis-wrapper"></div>
+        </div>
+    </div>
+
+    <div class= "pure-g">
+        <div class = "pure-u-1-1">
+            <h1>Law enforcement around HIV issue</h1>
+        </div>
+    </div>
+
+    <div class = "pure-g">
+      <div class = "pure-u-1-2">
+          <div id = "vis8" class = "vis-wrapper"></div>
+      </div>
+
+      <div class= "pure-g">
+        <div class = "pure-u-1-1">
+            <h1>Expenditure required to meet target</h1>
+        </div>
+    </div>
+
+    <div class = "pure-g">
+      <div class = "pure-u-1-2">
+          <div id = "vis9" class = "vis-wrapper"></div>
+      </div>
+
+  
+  
+
+  </div> <!-- end page -->
+   
+<script type="text/javascript">
+  var specVis1 = "hiv_map_complete.json";
+  var specVis2 = "across_age.json";
+  var specVis3 =  "gender_comp.json";
+  var specVis4 = "across_time.json";
+  var specVis5 = "ART_help_modif.json";
+  var specVis6 = "art_coverage.json";
+  var specVis7 = "slope_chart.json";
+  var specVis8 = "Laws.json";
+  var specVis9 = "forecast.json";
+  var specVis10 = "hiv_knowledge.json";
+
+  vegaEmbed('#vis1', specVis1, {"actions": false});
+
+  vegaEmbed('#vis2', specVis2, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis4', specVis4, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis5', specVis5, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis6', specVis6, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis7', specVis7, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis8', specVis8, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis9', specVis9, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis10', specVis10, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+</script>
+</body>
+</html>
