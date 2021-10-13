@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 400,
+  "title": "HIV funding and estimated funding required to meet the target, in USD million",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/expenditure_chart.csv"
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "axis": {"grid": true}},
+    "y": {"field": "Values", "type": "quantitative", "title": "USD Million"},
+    "color": {"field": "Area", "type": "nominal"},
+    "strokeDash": {"field": "Forecast", "type": "nominal"},
+    "tooltip": [
+      {"field": "Year", "type": "ordinal"},
+      {"field": "Area", "type": "nominal"},
+      {"field": "Values", "type": "quantitative", "format": ",.1f"},
+      {"field": "Forecast", "type": "nominal"}
+    ]
+  },
+  "config": {}
+}

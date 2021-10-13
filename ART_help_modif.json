@@ -1,0 +1,92 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "title": "Number of HIV/AIDS deaths and deaths averted due to ART (Antiretroviral theraphy)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/ART_help_modif.csv"
+  },
+  "params": [
+    {
+      "name": "Area_selection",
+      "value" : "World",
+      "bind": {
+        "input": "select",
+        "options": [
+          "World",
+          "Asia and the Pacific",
+          "East and Southern Africa",
+          "Eastern Europe and Central Asia",
+          "Middle East and North Africa",
+          "West and Central Africa",
+          "Western & Central Europe and North America"
+        ],
+        "labels": [
+          "World",
+          "Asia and the Pacific",
+          "East and Southern Africa",
+          "Eastern Europe and Central Asia",
+          "Middle East and North Africa",
+          "West and Central Africa",
+          "Western & Central Europe and North America"
+        ],
+        "name": "Area Selection: "
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.Country == Area_selection"}],
+  "layer" : [
+  {"mark" : "area",
+    "encoding": {
+      "x": {"field": "Year", "type": "ordinal", "title": "Year","axis" : {"labelFontSize" : 8.5, "labelAngle" : 20, "grid" : true}},
+      "y": {"field": "value", "type": "quantitative","scale" : {"domainMin" : 0},"axis" : {"labelFontSize" : 6.9}},
+      "color": {"field": "Group", "scale": {"scheme": "tableau10"}},
+      "tooltip": [
+        {"field": "Country", "type": "nominal", "title": "Area"},
+        {"field": "Year", "type": "ordinal"},
+        {"field": "Group", "type": "nominal"},
+        {"field": "value", "type": "quantitative", "format": ",", "title" : "Saved/Deaths"}
+      ]}},
+  {
+    "mark" : {
+      "type" : "text",
+      "dx" : -180,
+      "dy" : -180
+    },
+    "encoding": {
+        "text": {
+          "field": "sum_val",
+          "type": "quantitative",
+          "condition": {
+            "test": "datum.Group == 'ART'",
+            "value": "In this area ART has saved approximately : "
+          }
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.Group == 'ART'",
+            "value": 1
+          },
+          "value": 0
+        }
+      }},
+    {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "dx" : -25,
+        "dy" : -180
+      },
+      "encoding" : {
+        "text" : {
+          "field" : "sum_val", "type" : "quantitative",
+          "color" : {
+            "condition" : {"test" : "datum.Group == 'ART'", "value" : "black"},
+            "value" : "white"
+          },
+          "format" : ",.0f"
+        }
+      }
+    }  
+      ]}
+       

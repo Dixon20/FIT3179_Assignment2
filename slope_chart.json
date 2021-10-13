@@ -1,0 +1,89 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width" : 500,
+  "height": 400,
+  "title": "ART decrease Mother-to-child transmission rate",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/slope_chart.csv"
+  },
+  "transform" : [
+    {"calculate" : "datum.Values / 100", "as" : "Values2"}
+  ],
+  "encoding" : {
+    "x" : {
+      "field" : "Year",
+      "type" : "ordinal",
+      "axis" : {
+        "labelAngle" : 0
+      }
+    },
+    "y" : {
+      "field" : "Values",
+      "type" : "quantitative",
+      "axis" : null
+    }
+  },
+  "layer" : [
+    {
+      "mark" : "line",
+      "encoding" : {
+        "color" : {
+          "field" : "Category",
+          "type" : "nominal"
+        }
+      }
+    },
+    {
+      "mark" : {
+        "type" : "point",
+        "filled" : true
+      },
+      "encoding" : {
+        "color" : {
+          "field" : "Category",
+          "type" : "ordinal",
+          "legend" : null
+        },
+        "size" : {"value" : 100},
+        "opacity" : {"value" : 1}
+      }
+
+    },
+    {
+      "mark" : {
+        "type" : "text",
+        "dy" : -10
+      },
+      "encoding" : {
+        "text" : {
+          "field" : "Values2",
+          "type" : "quantitative",
+          "format" : ".1%"
+          },
+        "color" : {
+            "field" : "Category",
+            "type" : "nominal"
+        }
+      }
+    },
+    {
+      "mark" : {
+        "type" : "text",
+        "dy" : 20
+      },
+      "encoding" : {
+        "text" : {
+          "field" : "Category",
+          "type" : "nominal"
+        },
+      "color" : {
+        "condition" : {
+          "test" : "datum.Year == 2020",
+          "value" : "black"
+        },
+        "value" : "white"
+      }
+      }
+      }
+  ]
+}

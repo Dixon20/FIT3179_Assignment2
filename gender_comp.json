@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 400,
+  "title": "Is HIV more common in male/female?",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/gender.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "val",
+      "type": "quantitative",
+      "title": "Estimated people living with HIV"
+    },
+    "y": {
+      "field": "location",
+      "type": "nominal",
+      "title": "Continent",
+      "axis": {"offest": 5, "ticks": false, "minExtent": 70, "domain": false}
+    }
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "detail": {"field": "location", "type": "nominal"},
+        "color": {"value": "#db646f"}
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 100},
+      "encoding": {
+        "color": {"field": "sex", "type": "nominal"},
+        "tooltip": [
+          {"field": "location", "type": "nominal", "title": "Continent"},
+          {
+            "field": "val",
+            "type": "quantitative",
+            "title": "People living with HIV",
+            "format": ",.0f"
+          },
+          {"field": "sex", "type": "nominal"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}

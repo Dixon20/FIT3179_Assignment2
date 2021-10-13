@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/law_clean.csv"
+  },
+  "width": 500,
+  "params": [
+    {
+      "name": "Continent_selection",
+      "value": "Europe",
+      "bind": {
+        "input": "select",
+        "options": ["Africa", "Americas", "Asia", "Europe", "Oceania"],
+        "labels": ["Africa", "America", "Asia", "Europe", "Oceania"],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.region == Continent_selection"}],
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["region"],
+          "bind": "legend"
+        }
+      },
+      "mark": "rect",
+      "title": "Laws around HIV issue",
+      "encoding": {
+        "y": {"field": "location", "type": "nominal", "title": "Area"},
+        "x": {
+          "field": "Laws",
+          "type": "nominal",
+          "axis": {"orient": "top", "labelAngle": 40, "labelLimit": 0, "labelFontSize" : 10},
+          "title" :null
+        },
+        "color": {"field": "value", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {}
+}
