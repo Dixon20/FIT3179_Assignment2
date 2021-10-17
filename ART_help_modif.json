@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 500,
+  "width": 400,
   "height": 400,
-  "title": "Number of HIV/AIDS deaths and deaths averted due to ART (Antiretroviral theraphy)",
+  "title": "Number of HIV/AIDS deaths and deaths averted due to ART",
   "data": {
     "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/ART_help_modif.csv"
   },
@@ -38,9 +38,11 @@
   "layer" : [
   {"mark" : "area",
     "encoding": {
-      "x": {"field": "Year", "type": "ordinal", "title": "Year","axis" : {"labelFontSize" : 8.5, "labelAngle" : 20, "grid" : true}},
-      "y": {"field": "value", "type": "quantitative","scale" : {"domainMin" : 0},"axis" : {"labelFontSize" : 6.9}},
-      "color": {"field": "Group", "scale": {"scheme": "tableau10"}},
+      "x": {"field": "Year", "type": "ordinal", "title": "Year","axis" : {"labelFontSize" : 8.5, "labelAngle" : 90}},
+      "y": {"field": "value", "type": "quantitative","scale" : {"domainMin" : 0},"axis" : {"labelFontSize" : 6.9}, "title" : "Value"},
+      "color": {"field": "Group", 
+      "scale" : {
+      "domain": ["ART", "Death"], "range" : ["#2b8cbe", "#de2d26" ]}},
       "tooltip": [
         {"field": "Country", "type": "nominal", "title": "Area"},
         {"field": "Year", "type": "ordinal"},
@@ -50,7 +52,7 @@
   {
     "mark" : {
       "type" : "text",
-      "dx" : -180,
+      "dx" : -80,
       "dy" : -180
     },
     "encoding": {
@@ -59,7 +61,7 @@
           "type": "quantitative",
           "condition": {
             "test": "datum.Group == 'ART'",
-            "value": "In this area ART has saved approximately : "
+            "value": "In this area ART has saved approximately, "
           }
         },
         "opacity": {
@@ -74,8 +76,8 @@
       "mark" : {
         "type" : "text",
         "align" : "right",
-        "dx" : -25,
-        "dy" : -180
+        "dx" : -80,
+        "dy" : -160
       },
       "encoding" : {
         "text" : {
@@ -84,9 +86,32 @@
             "condition" : {"test" : "datum.Group == 'ART'", "value" : "black"},
             "value" : "white"
           },
-          "format" : ",.0f"
+          "format" : ".3s"
         }
       }
-    }  
+    },
+     {
+    "mark" : {
+      "type" : "text",
+      "dx" : -60,
+      "dy" : -160
+    },
+    "encoding": {
+        "text": {
+          "field": "sum_val",
+          "type": "quantitative",
+          "condition": {
+            "test": "datum.Group == 'ART'",
+            "value": "People."
+          }
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.Group == 'ART'",
+            "value": 1
+          },
+          "value": 0
+        }
+      }}
       ]}
        
