@@ -3,7 +3,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/law_clean.csv"
   },
-  "width": 500,
+  "width": 400,
+  "height" : 450,
   "params": [
     {
       "name": "Continent_selection",
@@ -31,12 +32,18 @@
       "encoding": {
         "y": {"field": "location", "type": "nominal", "title": "Area"},
         "x": {
-          "field": "Laws",
+          "field": "Law",
           "type": "nominal",
-          "axis": {"orient": "top", "labelAngle": 40, "labelLimit": 0, "labelFontSize" : 10},
+          "axis": {"orient": "top", "labelAngle": 0, "labelLimit": 0, "labelFontSize" : 10, "ticks" :false},
           "title" :null
         },
-        "color": {"field": "value", "type": "nominal"}
+        "color": {"field": "value", "type": "nominal"},
+        "tooltip" : [
+          {"field" : "Laws", "type" : "nominal", "title" : "Law"},
+          {"field" : "location", "type" : "nominal" , "title" : "Country"},
+          {"field" : "region", "type" : "nominal", "title" : "Continent"},
+          {"field" : "value", "type" : "nominal", "title" : "Law exist (Y/N)"}
+        ]
       }
     }
   ],
