@@ -1,0 +1,135 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 400,
+  "title": "Is HIV more common in male/female?",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/gender.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "val",
+      "type": "quantitative",
+      "title": "Estimated people living with HIV"
+    },
+    "y": {
+      "field": "location",
+      "type": "nominal",
+      "title": "Continent",
+      "axis": {"offest": 5, "ticks": false, "minExtent": 70, "domain": false}
+    }
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "detail": {"field": "location", "type": "nominal"},
+        "color": {"value": "#1d1b1b"}
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 120},
+      "encoding": {
+        "color": {"field": "sex", "type": "nominal", "title" : "Sex",
+        "scale" : {
+          "domain" : ["Male", "Female"],
+          "range" : ["#CE4A7EFF", "#00239CFF"]
+        }
+        },
+        "opacity" : {"value" : 1},
+        "tooltip": [
+          {"field": "location", "type": "nominal", "title": "Continent"},
+          {
+            "field": "val",
+            "type": "quantitative",
+            "title": "People living with HIV",
+            "format": ",.0f"
+          },
+          {"field": "sex", "type": "nominal"}
+        ]
+      }
+    },
+    {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "middle",
+        "dx" : 160,
+        "dy" : 30,
+        "fontSize" : 8,
+        "fontStyle" : "italic"
+      },
+      "encoding" : {
+        "text" : {"field" : "location", "type" : "nominal",
+        "condition" : {
+          "test" : "datum['val'] == '9806027.925214378'",
+          "value" : [
+            "In Africa, the number of Women living with HIV is almost twice the Men!."
+          ]
+        }
+        },
+        "opacity" : {
+          "condition" : {
+            "test" : "datum['val'] == '9806027.925214378'",
+            "value" : 1},
+            "value" : 0
+          }
+        }
+      },
+      {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "middle",
+        "dx" : 160,
+        "dy" : 40,
+        "fontSize" : 8,
+        "fontStyle" : "italic"
+      },
+      "encoding" : {
+        "text" : {"field" : "location", "type" : "nominal",
+        "condition" : {
+          "test" : "datum['val'] == '9806027.925214378'",
+          "value" : [
+            "This is a stark difference because in all other continents, the difference is not that significant."
+          ]
+        }
+        },
+        "opacity" : {
+          "condition" : {
+            "test" : "datum['val'] == '9806027.925214378'",
+            "value" : 1},
+            "value" : 0
+          }
+        }
+      },
+      {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "middle",
+        "dx" : 180,
+        "dy" : 200,
+        "fontSize" : 8,
+        "fontStyle" : "italic"
+      },
+      "encoding" : {
+        "text" : {"field" : "location", "type" : "nominal",
+        "condition" : {
+          "test" : "datum['val'] == '9806027.925214378'",
+          "value" : [
+            "Only in Africa and Oceania, Female is higher than Male. In the rest of continent, it's the opposite."
+          ]
+        }
+        },
+        "opacity" : {
+          "condition" : {
+            "test" : "datum['val'] == '9806027.925214378'",
+            "value" : 1},
+            "value" : 0
+          }
+        }
+      }
+  ],
+  "config": {}
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
+  "title": "HIV funding and estimated funding required to meet the target, in USD million",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/expenditure_chart.csv"
+  },
+  "layer" : [
+    {
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "axis": {"grid": true, "labelAngle" : 0}},
+    "y": {"field": "Values", "type": "quantitative", "title": "USD Million"},
+    "color": {"field": "Area", "type": "nominal"},
+    "strokeDash": {"field": "Forecast", "type": "nominal"},
+    "tooltip": [
+      {"field": "Year", "type": "ordinal"},
+      {"field": "Area", "type": "nominal"},
+      {"field": "Values", "type": "quantitative", "format": ",.1f", "title" : "USD million"},
+      {"field": "Forecast", "type": "nominal"}
+    ]
+  }
+    },
+  {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "middle",
+        "dx" : 230,
+        "dy" : 40,
+        "fontSize" : 9,
+        "fontStyle" : "italic"
+      },
+      "encoding" : {
+        "text" : {"field" : "Values", "type" : "quantitative",
+        "condition" : {
+          "test" : "datum['Year'] == '2021'",
+          "value" : [
+            "East and Southern Africa has the worst HIV/AIDS cases in the world, it makes sense that they put highest expenditure in 2018-2020."
+          ]
+        }
+        },
+        "opacity" : {
+          "condition" : {
+            "test" : "datum['Year'] == '2021'",
+            "value" : 1},
+            "value" : 0
+          }
+        }
+      }
+    ],
+  "config": {}
+}

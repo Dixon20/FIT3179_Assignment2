@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width" : 400,
+  "height" : 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/art_coverage_clean.csv"
+  },
+  "mark": "rect",
+  "title": "ART coverage from 1990 - 2020",
+  "encoding": {
+    "y": {"field": "Location", "type": "nominal", "title": null},
+    "x": {"field": "Period", "type": "temporal"},
+    "color": {
+      "field": "FactValueNumeric",
+      "type": "quantitative",
+      "title": "% of coverage",
+      "scale": {
+        "type": "threshold",
+        "domain": [20, 40, 60, 80],
+        "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#cb181d"]
+      }
+    },
+    "tooltip": [
+      {"field": "Location", "type": "nominal", "title": "Area"},
+      {"field": "Period", "type": "temporal", "title": "Period"},
+      {
+        "field": "FactValueNumeric",
+        "type": "quantitative",
+        "title": "% of coverage"
+      }
+    ]
+  },
+  "config": {"axis": {"grid": true, "tickBand": "extent"}}
+}
