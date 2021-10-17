@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width" : 500,
+  "width" : 400,
   "height": 400,
   "title": "ART decrease Mother-to-child transmission rate",
   "data": {
@@ -69,7 +69,8 @@
     {
       "mark" : {
         "type" : "text",
-        "dy" : 20
+        "dy" : 30,
+        "dx" : -18
       },
       "encoding" : {
         "text" : {
