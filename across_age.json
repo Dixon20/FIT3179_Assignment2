@@ -3,9 +3,9 @@
   "data": {
     "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/across_ages.csv"
   },
-  "width": 500,
+  "width": 400,
   "height": 400,
-  "title": "HIV/AIDS across world, measured per 100,000 individuals across age",
+  "title": "HIV/AIDS across world, measured per 100,000 individuals",
   "params": [
     {
       "name": "Year_range",
@@ -24,7 +24,6 @@
   "encoding": {
     "x": {"field": "val", "type": "quantitative", "title": "Estimated Value"},
     "y": {"field": "age", "type": "nominal", "sort": "-x", "title": "Age"},
-    "color": {"field": "age", "title": "Age"},
     "tooltip": [
       {"field": "age", "type": "nominal", "title": "Age"},
       {"field": "year", "type": "nominal", "title": "Year"},
