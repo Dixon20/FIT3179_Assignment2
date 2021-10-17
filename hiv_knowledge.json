@@ -46,7 +46,8 @@
       "scale" : {
         "domain" : ["Africa","Americas", "Asia", "Europe", "Oceania"],
         "range" : ["#DAA03DFF","#2BAE66FF", "#F95700FF", "#7F00FF", "#00B1D2FF"]
-      }
+      },
+      "legend" : {"title" : "Continent(Click to filter)"}
       },
     "opacity": {
       "condition": {"selection": "continent_highlight", "value": 0.6},
