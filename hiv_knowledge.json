@@ -13,20 +13,26 @@
       "bind": "legend"
     }
   },
-  "mark": "circle",
   "encoding": {
     "x": {
       "field": "Female",
       "type": "quantitative",
       "title": "% of young Women"
     },
-    "y": {"field": "Male", "type": "quantitative", "title": "% of young Men"},
-    "color": {"field": "region", "type": "nominal", "title": "Continent"},
-    "opacity": {
-      "condition": {"selection": "continent_highlight", "value": 0.8},
-      "value": 0.2
-    },
-    "size": {
+    "y": {"field": "Male", "type": "quantitative", "title": "% of young Men"}
+  },
+  "layer" : [
+    {
+      "selection" : {
+        "continent_highlight" : {
+          "type" : "multi",
+          "fields" : ["region"],
+          "bind" : "legend"
+        }
+      },
+      "mark" : "circle",
+      "encoding" : {
+        "size": {
       "field": "Values",
       "type": "quantitative",
       "scale": {
@@ -35,6 +41,16 @@
         "range": [10, 50, 150, 200, 300, 400]
       },
       "legend": {"format": ".1s", "title": "Population"}
+      },
+      "color": {"field": "region", "type": "nominal", "title": "Continent",
+      "scale" : {
+        "domain" : ["Africa","Americas", "Asia", "Europe", "Oceania"],
+        "range" : ["#DAA03DFF","#2BAE66FF", "#F95700FF", "#7F00FF", "#00B1D2FF"]
+      }
+      },
+    "opacity": {
+      "condition": {"selection": "continent_highlight", "value": 0.6},
+      "value": 0.2
     },
     "tooltip": [
       {"field": "year", "type": "ordinal", "title": "Year"},
@@ -49,6 +65,140 @@
         "format": ","
       }
     ]
-  },
-  "config": {}
-}
+    }},
+    {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "middle",
+        "dx" : -12,
+        "fontSize" : 8,
+        "fontStyle" : "italic"
+      },
+      "encoding" : {
+        "text" : {"field" : "location", "type" : "nominal",
+        "condition" : {
+          "test" : "datum['location'] == 'Antigua and Barbuda'",
+          "value" : [
+            "Antigua and Barbuda has the highest knowledge among both Male and Female"
+          ]
+        }
+        },
+        "opacity" : {
+          "condition" : {
+            "test" : "datum['location'] == 'Antigua and Barbuda'",
+            "value" : 1},
+            "value" : 0
+          }
+        }
+      },
+      {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "middle",
+        "dx" : 15,
+        "dy" : -10,
+        "fontSize" : 8,
+        "fontStyle" : "italic"
+      },
+      "encoding" : {
+        "text" : {"field" : "location", "type" : "nominal",
+        "condition" : {
+          "test" : "datum['location'] == 'Peru'",
+          "value" : [
+            " Might be mistake in the sampling or Female in Peru are significantly more educated than the Male."
+          ]
+        }
+        },
+        "opacity" : {
+          "condition" : {
+            "test" : "datum['location'] == 'Peru'",
+            "value" : 1},
+            "value" : 0
+          }
+        }
+      },
+      {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "middle",
+        "dx" : 15,
+        "dy" : -10,
+        "fontSize" : 8,
+        "fontStyle" : "italic"
+      },
+      "encoding" : {
+        "text" : {"field" : "location", "type" : "nominal",
+        "condition" : {
+          "test" : "datum['location'] == 'Rwanda'",
+          "value" : [
+            " Rwanda is the highest among countries in Africa continent."
+          ]
+        }
+        },
+        "opacity" : {
+          "condition" : {
+            "test" : "datum['location'] == 'Rwanda'",
+            "value" : 1},
+            "value" : 0
+          }
+        }
+      },
+      {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "middle",
+        "dx" : 170,
+        "dy" : 0,
+        "fontSize" : 8,
+        "fontStyle" : "italic"
+      },
+      "encoding" : {
+        "text" : {"field" : "location", "type" : "nominal",
+        "condition" : {
+          "test" : "datum['location'] == 'Thailand'",
+          "value" : [
+            " Thailand is the highest among Asia continent."
+          ]
+        }
+        },
+        "opacity" : {
+          "condition" : {
+            "test" : "datum['location'] == 'Thailand'",
+            "value" : 1},
+            "value" : 0
+          }
+        }
+      },
+      {
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "middle",
+        "dx" : 15,
+        "dy" : -10,
+        "fontSize" : 8,
+        "fontStyle" : "italic"
+      },
+      "encoding" : {
+        "text" : {"field" : "location", "type" : "nominal",
+        "condition" : {
+          "test" : "datum['location'] == 'Lithuania'",
+          "value" : [
+            " Lithuania, 2nd highest among all."
+          ]
+        }
+        },
+        "opacity" : {
+          "condition" : {
+            "test" : "datum['location'] == 'Lithuania'",
+            "value" : 1},
+            "value" : 0
+          }
+        }
+      }
+  ]
+    }
